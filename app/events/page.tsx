@@ -1,3 +1,3 @@
 export default function Events() {
-    return <div>Events</div>
+  return <div>Events</div>;
 }
