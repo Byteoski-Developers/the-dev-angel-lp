@@ -4,11 +4,152 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   @apply leading-[normal] m-0;
 }
+
 *,
 ::before,
 ::after {
   border-width: 0;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+}
+
+.left-arrow,
+.right-arrow,
+.up-arrow,
+.down-arrow {
+  display: inline-block;
+  margin-left: 23px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid #F10C0C;
+  border-left: 1px solid #F10C0C;
+  transform-origin: center;
+}
+
+/* .dashed-line{
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 260px;
+  border: 1px dashed #F10C0C ;
+  transform: rotate(90deg) translate(21px, 9px);
+} */
+
+/* .dashed-line::after{
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 60px;
+  background-color: #F10C0C;
+  transform: translate(21px, 9px);
+} */
+
+.right-arrow {
+  transform: rotate(135deg);
+}
+
+.left-arrow {
+  transform: rotate(-45deg);
+}
+
+.up-arrow {
+  transform: rotate(45deg);
+}
+
+.down-arrow {
+  transform: rotate(-135deg);
+}
+
+.right-arrow::after,
+.left-arrow::after,
+.up-arrow::after,
+.down-arrow::after {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 60px;
+  background-color: #F10C0C;
+  transform: rotate(-45deg) translate(21px, 9px);
+}
+
+
+.bent-dashed-line::before {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 150px; 
+  border: 1px dashed #F10C0C;
+}
+
+.bent-dashed-line::after {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 130px;
+  border: 1px dashed #F10C0C;
+}
+
+.bent-dashed-line::before {
+  transform: rotate(45deg) translate(76px, -130px);
+}
+
+.bent-dashed-line::after {
+  transform: rotate(135deg) translate(-152px, 88px);
+}
+
+.bent-dashed-line{
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 250px;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid #F10C0C;
+  border-left: 1px solid #F10C0C;
+  transform-origin: center;
+  transform: rotate(225deg);
+}
+
+.bent-dashed-line-reverse::before {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 150px;
+  border: 1px dashed #F10C0C;
+}
+
+.bent-dashed-line-reverse::after {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 130px; 
+  border: 1px dashed #F10C0C;
+}
+
+.bent-dashed-line-reverse::before {
+  transform: rotate(45deg) translate(76px, -130px);
+}
+
+.bent-dashed-line-reverse::after {
+  transform: rotate(135deg) translate(-152px, 88px);
+}
+
+.bent-dashed-line-reverse{
+  display: inline-block;
+  margin-left: -90px;
+  margin-top: 170px;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid #F10C0C;
+  border-left: 1px solid #F10C0C;
+  transform-origin: center;
+  transform: rotate(315deg);
 }
