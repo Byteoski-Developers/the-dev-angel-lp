@@ -12,3 +12,8 @@ body {
 ::after {
   border-width: 0;
 }
+
+.view-container {
+  @apply box-border mx-auto;
+  @apply w-[1320px] max-2xl:w-[1200px] max-xl:w-[960px] max-lg:w-[720px] max-md:w-[640px] max-sm:w-[300px];
+}
