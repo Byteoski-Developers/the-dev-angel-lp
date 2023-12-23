@@ -5,7 +5,7 @@ import Link from 'next/link';
 const links = ['Home', 'About', 'Contact Us', "Events"];
 export default function Header() {
     return (
-        <nav className="my-2 mx-20 bg-white flex justify-between items-center ">
+        <nav className="my-2 mx-30 bg-white flex justify-between items-center ">
             <Image src={logo} alt="Logo" width={127} height={52} />
             <ul className="relative w-[262px] h-[21px] flex flex-row items-start justify-start gap-[18px] text-left text-sm text-darkslategray font-poppins">
                 {links.map((link) => (

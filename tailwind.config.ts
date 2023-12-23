@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '30': '120px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,6 +18,8 @@ const config: Config = {
       },
       colors:{
         'orangered':'#ff5722',
+        'lightyellow' : '#FFC107',
+        'lightorange' : '#FF5722',
       },
       fontFamily: {
         "poppins": "Poppins",
