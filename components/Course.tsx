@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CourseImg from "../../public/assets/images/Course.svg";
+
 
 const Course = () => {
   return (
@@ -18,7 +18,7 @@ const Course = () => {
           </h4>
           <p className="py-3 lg:py-5 font-normal text-base leading-6">
             Unlock your potential with our diverse range of courses designed to
-            meet your learning needs. Whether you're a beginner or an expert
+            meet your learning needs. Whether you&apos;re a beginner or an expert
             looking to enhance your skills, our carefully curated selection
             offers something for everyone. Dive into a world of knowledge and
             opportunity with:
@@ -31,7 +31,7 @@ const Course = () => {
         </div>
         <div className="md:col-span-1 text-center ">
           <Image
-            src={CourseImg}
+            src={"/assets/images/Course.svg"}
             width={553}
             height={404}
             alt="courses"
