@@ -36,8 +36,8 @@ export default function Events() {
       {/* Recent Events Section */}
       <div className="text-left text-sm text-black font-bold mb-6">Recent Events (17)</div>
 
-      {/* Cards start */}
-      <div className="max-w-6xl mx-auto flex space-x-4 ">
+       {/* Cards start */}
+       <div className="max-w-6xl mx-auto flex space-x-4 ">
         {/* First card */}
         <div className="rounded overflow-hidden shadow-lg max-w-sm ">
           <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
@@ -59,9 +59,9 @@ export default function Events() {
         </div>
 
 
-        {/* Second card */}
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
-          <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
+               {/* Second card */}
+               <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Event Title-2</div>
             <p>
@@ -80,9 +80,9 @@ export default function Events() {
         </div>
 
 
-        {/* Third card */}
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
-          <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
+          {/* Third card */}
+          <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Event Title-3</div>
             <p>
@@ -119,6 +119,6 @@ export default function Events() {
           <div className="text-white text-xs py-8 mx-15">Copyright © 2023 All rights reserved</div>
         </div>
       </footer>
-    </div>
-  );
+  </div>
+      );
 }
