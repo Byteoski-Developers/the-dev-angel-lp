@@ -1,15 +1,6 @@
 import React from "react"
-interface ProductBuiltProps{
-  title:string
-  desp:string 
-  img:string 
-}
 
-const ProductBuilt=({
-  title,
-desp,
-img,
-}:ProductBuiltProps)=> {
+const ProductBuilt=()=> {
     return (
         <React.Fragment>
             
