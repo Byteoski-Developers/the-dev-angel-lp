@@ -11,7 +11,6 @@ const ProductBuilt=()=> {
 
 <div className="items-center justify-center px-36 py-10 ">
       <div className=" w-[1200px] h-[193px] bg-white rounded-lg border-4 border-solid border-transparent shadow-[0px_10px_20px_#ff57221a] [border-image:linear-gradient(to_bottom,rgb(255,87,34),rgb(255,193,7))_1]" />
-    
       </div>
 
 </React.Fragment>
