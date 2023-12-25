@@ -1,23 +1,23 @@
-import {Marque1, Marque2} from "../Marquee/Marquee";
+
 
 export default function Hero() {
     return (
       <>
         {/* Hero Section: Subtle Gradient Box */}
-        <div className="relative overflow-hidden  bg-white items-center md:h-screen-full lg:min-h-screen ">
+        <div className="relative overflow-hidden min-screen-full bg-white max-h-screen ">
          
   
           {/* Hero Content */}
-          <div className="container relative justify-items-center lg:mx-30 px-4 py-10 bg-white text-center lg:px-8 xl:max-w-7xl ">
+          <div className="justify-center items-center text-center mx-30 py-10 bg-white  ">
             <div className="inline-flex px-4 py-1 mb-7 text-xs font-poppins rounded-xl text-orangered-100 bg-orangered-300 object-cover leading-5 ">
             #1 BEST YOUNG SOFTWARE BUILDER HOUSE
             </div>
-            <h1 className="mx-auto mb-4 text-8xl text-black font-bold font-poppins xs:text-4xl sm:text-4xl md:text-6xl xl:text-8xl ">
-              <span className="p-5 line-clamp-1">Let’s Build Together</span>{" "}
+            <h2 className="flex flex-col items-center mb-5 text-black font-bold font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl ">
+              <span className="flex p-5 line-clamp-1">Let’s Build Together</span>
 
-              <span className="p-5 text-orangered-100 ">New SAAS</span>{" "}
+              <span className="flex p-2 text-orangered-100 ">New SAAS</span>
               
-            </h1>
+            </h2>
             <h2 className="mx-auto text-xl font-medium leading-relaxed text-gray-600 lg:w-3/4 xl:w-3/4 ">
             The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.
             </h2>
@@ -33,10 +33,7 @@ export default function Hero() {
             
           </div>
           {/* Marquee */}
-          <div className="sm:min-h-screen-">
-          <Marque1 />
-          <Marque2 />
-          </div>
+          
           {/* END Hero Content */}
         </div>
         
