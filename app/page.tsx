@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import logo from '../public/assets/images/Logo.svg';
 import Card from './components/Card';
 import clsx from 'clsx';
 let fun = function landingPage() {
@@ -31,18 +29,23 @@ let fun = function landingPage() {
           <p className='flex text-grey font-medium place-content-center font-poppins text-base '>
             Your One Stop Destination for Success
           </p>
-          <div className=' mt-10'>
+          <div className='mt-10  justify-center'>
             {cardProps.map((props, index) => (
-              <div className={clsx("flex  justify-center",  index % 2 === 0 ? "flex-row mr-9" : "flex-row-reverse ml-9")}>
-
+              <div className={clsx("flex justify-center", index % 2 === 0 ? "flex-row mr-24" : "flex-row-reverse ml-24")}>
                 <Card key={index} {...props} />
                 {
-                index % 2 == 0 ?
-                <div className='pl-32 w-1/3 ' >
-                  <span className={clsx('bent-dashed-line' , index%4 ===0? "":"bent-dashed-line-reverse")} ></span>
-                </div>
-                :
-                <Image src={"/assets/images/photo.png"} alt='' width={400} height={70} className='w-1/3 '></Image>
+                  index % 2 != 0 ?
+                    <Image src={"/assets/images/photo.png"} alt='' width={400} height={70} className='w-1/3 '></Image>
+                    :
+                    index % 4 === 0 ?
+                      <div className='flex flex-col pl-5'>
+                        <div className='flex-1'></div>
+                        <img src={"/Frame 1.svg"} alt="My SVG" />
+                      </div>
+                      :
+                      <div className='pl-5'>
+                        <img src={"/Frame 2.svg"} alt="My SVG" />
+                      </div>
                 }
               </div>
             ))}

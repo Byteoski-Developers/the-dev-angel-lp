@@ -117,39 +117,3 @@ body {
   transform-origin: center;
   transform: rotate(225deg);
 }
-
-.bent-dashed-line-reverse::before {
-  content: "";
-  display: block;
-  width: 1.5px;
-  height: 150px;
-  border: 1px dashed #F10C0C;
-}
-
-.bent-dashed-line-reverse::after {
-  content: "";
-  display: block;
-  width: 1.5px;
-  height: 130px; 
-  border: 1px dashed #F10C0C;
-}
-
-.bent-dashed-line-reverse::before {
-  transform: rotate(45deg) translate(76px, -130px);
-}
-
-.bent-dashed-line-reverse::after {
-  transform: rotate(135deg) translate(-152px, 88px);
-}
-
-.bent-dashed-line-reverse{
-  display: inline-block;
-  margin-left: -90px;
-  margin-top: 170px;
-  width: 9px;
-  height: 9px;
-  border-top: 1px solid #F10C0C;
-  border-left: 1px solid #F10C0C;
-  transform-origin: center;
-  transform: rotate(315deg);
-}
