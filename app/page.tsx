@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Card from './components/Card';
 import clsx from 'clsx';
+import Course from '@/components/Course';
 let fun = function landingPage() {
   const cardProps = [{
     h1: "It's",
@@ -53,41 +54,11 @@ let fun = function landingPage() {
 
         </div>
       </div>
-
-      {/* <div
-              key={data.id}
-              className={
-                clsx("flex justify-between bg-accent-500 rounded-lg overflow-hidden hover:shadow-lg hover:-translate-y-1 transition",
-                  data.id % 2 === 0 ? 'flex-col' : 'flex-col-reverse'
-                )
-              }>
-              <div className="p-4 space-y-4 text-white">
-                <h1
-                  className="text-3xl font-bold"
-                >
-                  {
-                    data.title
-                  }
-                </h1>
-                <p className="text-lg opacity-70">
-                  {data.subtitle}
-                </p>
-              </div>
-              <div className="relative">
-                <Image
-                  alt='jalkd'
-                  src={data.imageSrc}
-                  width={300}
-                  height={300}
-                  className='w-full object-contain'
-                />
-                <button className="absolute bottom-6 right-4 rounded-full bg-white h-10 w-10 text-xl hover:translate-y-1 hover:shadow-lg transition">
-                  &#9654;
-                </button>
-              </div>
-      </div> */}
+      <Course />
     </>
   )
 }
 
 export default fun;
+
+

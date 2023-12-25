@@ -22,6 +22,9 @@ const config: Config = {
         'yellow-500': '#FFC107',
       },
 
+      spacing: {
+        '30': '120px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -31,11 +34,13 @@ const config: Config = {
       colors: {
         'orangered': '#ff5722',
         'grey': '#B5B5B5',
-
+        lightyellow: '#FFC107',
+        lightorange: '#FF5722',
         'vermilion': {
           '500': 'hsl(14, 100%, 57%)',
         }
       },
+     
 
       fontFamily: {
         "poppins": "Poppins",
