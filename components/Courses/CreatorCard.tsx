@@ -14,7 +14,7 @@ export default function CreatorCard({ creatorName, year, img }: props) {
         className="size-64 object-cover rounded-lg p-[1px] bg-gradient-to-b from-primaryOrange to-secondaryYellow shadow-sm shadow-primaryOrange"
         alt={creatorName}
       />
-      <div>
+      <div className=" text-center">
         <p className="font-bold text-secondaryYellow text-lg normal-case">{creatorName}</p>
         <p className="text-base leading-normal">{year} years of expertise</p>
       </div>

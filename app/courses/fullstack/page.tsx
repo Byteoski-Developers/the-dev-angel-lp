@@ -6,7 +6,26 @@ import CreatorMenu from "@/components/Courses/CreatorMenu";
 import CreatorCard from "@/components/Courses/CreatorCard";
 import ContactCTA from "@/components/common/ContactCTA";
 
-export default function CoursesPage() {
+const creators = [
+  {
+    name: "Anubhav Gupta",
+    year: "20",
+    img: "anubhav",
+  },
+  {
+    name: "Gautam Singla",
+    year: "20",
+    img: "anubhav",
+  },
+  {
+    name: "Tushar Gupta",
+    year: "20",
+    img: "anubhav",
+  },
+];
+
+
+export default function FullStackCoursesPage() {
   return (
     <div className="border-3  view-container">
       {/* header menu */}
@@ -45,9 +64,9 @@ export default function CoursesPage() {
       <SectionHeader title="Program Creators"  subtitle="" />
       <CreatorMenu/>
       <div className="flex md:flex-row flex-col md:gap-8 gap-6  md:mx-18 md:mt-16 mt-8 items-center justify-center">
-        <CreatorCard creatorName="Anubhav Gupta " year="20" img="anubhav" />
-        <CreatorCard creatorName="Anubhav Gupta " year="20" img="anubhav" />
-        <CreatorCard creatorName="Anubhav Gupta " year="20" img="anubhav" />
+        {creators.map((creator, index) => (
+          <CreatorCard key={index} creatorName={creator.name} year={creator.year} img={creator.img}  />
+        ))}
       </div>
 
 
