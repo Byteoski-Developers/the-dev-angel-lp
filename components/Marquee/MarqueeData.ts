@@ -1,6 +1,6 @@
 import { String1,String2 } from "./types"
 
-export const string1 : String1 = [
+export const MarqueeList1 : String1 = [
     {
         title: "SOFTWARE",
     },
@@ -17,33 +17,28 @@ export const string1 : String1 = [
         title: "DATA BASE", 
     },
     {
-        title: "SERVER"
+        title: "SYSTEM DESIGN"
     },
 ]
 
-export const string2 : String2 = [
+export const MarqueeList2 : String2 = [
     {
-        title: "Black",
+        title: "JavaScript",
     },
     {
-        title: "Marvin",
+        title: "Python",
     },
     {
-        title: "Cooper",
+        title: "React.Js",
     },
     {
-        title: "Nguyen",
+        title: "Node.Js",
     },
     {
-        title: "Miles", 
+        title: "DevOps", 
     },
     {
-        title: "Miles, Esther"
+        title: "TypeScript"
     },
-    {
-        title: "Flores, Juanita"
-    },
-    {
-        title: "Henry"
-    },
+    
 ]
