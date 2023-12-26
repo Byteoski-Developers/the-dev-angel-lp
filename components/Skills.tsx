@@ -1,6 +1,39 @@
 import React from "react";
 import Image from "next/image";
+
 const Skills = () => {
+  const data=[
+    {
+      imageUrl:"/assets/skills/image1.png",
+      name: "Coding"
+    },
+    {
+      imageUrl:"/assets/skills/image2.png",
+      name:"Backend"
+    },
+    {
+      imageUrl:"/assets/skills/image1.png",
+      name: "Coding"
+    },
+    {
+      imageUrl:"/assets/skills/image2.png",
+      name:"Backend"
+    },
+    {
+      imageUrl:"/assets/skills/image1.png",
+      name: "Coding"
+    },
+    {
+      imageUrl:"/assets/skills/image1.png",
+      name: "Coding"
+    },
+    {
+      imageUrl:"/assets/skills/image2.png",
+      name:"Backend"
+    },
+    
+   
+  ]
   return (
     <div className="w-full mx-auto text-center font-poppins px-10 md:px-5 lg:px-16 xl:px-40">
       <h2 className="text-3xl py-2 lg:py-4 font-bold ">
@@ -10,83 +43,22 @@ const Skills = () => {
         Your One Stop Destination for Success
       </h3>
 
-      <div className="mx-36 py-16 flex gap-10 ">
-        <div>
-          <Image
-            src={"/assets/skills/image1.png"}
-            width={39}
-            height={28}
-            alt="coding"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Coding</span>
-        </div>
-        <div>
-          <Image
-            src={"/assets/skills/image 2.png"}
-            width={39}
-            height={28}
-            alt="backend"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Backend</span>
-        </div>
-        <div>
-          <Image
-            src={"/assets/skills/image1.png"}
-            width={39}
-            height={28}
-            alt="coding"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Coding</span>
-        </div>
-        <div>
-          <Image
-            src={"/assets/skills/image 2.png"}
-            width={39}
-            height={28}
-            alt="backend"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Backend</span>
-        </div>
-        <div>
-          <Image
-            src={"/assets/skills/image1.png"}
-            width={39}
-            height={28}
-            alt="coding"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Coding</span>
-        </div>
+      <div className="mx-36 py-16 flex flex-wrap justify-center gap-10 ">
+       
+         { 
+         data.map((Skills)=>{
+          return(
+          <div>
+           <img src={Skills.imageUrl}
+           width={39}
+           height={28}
+           className="inline"/><span className="px-2 font-bold">{Skills.name}</span></div>
+          
+          )})
+          }
+       
       </div>
-      <div className="mx-36 flex justify-center gap-10 ">
-        <div>
-          <Image
-            src={"/assets/skills/image1.png"}
-            width={39}
-            height={28}
-            alt="coding"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Coding</span>
-        </div>
-        <div>
-          <Image
-            src={"/assets/skills/image 2.png"}
-            width={39}
-            height={28}
-            alt="backend"
-            className="inline"
-          />
-          <span className="px-2 font-bold">Backend</span>
-        </div>
-        
-        
-      </div>
-
+     
     </div>
   );
 };
