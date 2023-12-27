@@ -8,9 +8,7 @@ export default function CreatorMenu() {
         <span className="border-r md:pr-5 pr-3 md:mr-4 mr-2 border-black cursor-pointer hover:text-gray-500 ">
           Review
         </span>
-        <span className="cursor-pointer hover:text-gray-500 ">
-          Members
-        </span>
+        <span className="cursor-pointer hover:text-gray-500 ">Members</span>
       </div>
     </div>
   );

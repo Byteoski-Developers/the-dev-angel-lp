@@ -8,10 +8,17 @@ export default function ContactCTA() {
         <div className="flex flex-col justify-center items-start gap-6">
           <div className="text-heading font-heading text-start">
             Got a <span className="text-primaryOrange">Question?</span>
-            <p className="text-xl font-normal leading-normal">Chat with our Experts</p>
+            <p className="text-xl font-normal leading-normal">
+              Chat with our Experts
+            </p>
           </div>
           <div className="bg-primaryOrange font-semibold rounded-lg shadow-xl cursor-pointer flex items-center justify-center gap-2 text-white px-5 py-2">
-            <Image src="/assets/Icons/Conversation.svg"  width={24} height={24} alt="converstation" />
+            <Image
+              src="/assets/Icons/Conversation.svg"
+              width={24}
+              height={24}
+              alt="converstation"
+            />
             {`Let's Chat`}
           </div>
         </div>

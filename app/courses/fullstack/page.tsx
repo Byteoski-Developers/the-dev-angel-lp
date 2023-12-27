@@ -24,7 +24,6 @@ const creators = [
   },
 ];
 
-
 export default function FullStackCoursesPage() {
   return (
     <div className="border-3  view-container">
@@ -38,7 +37,9 @@ export default function FullStackCoursesPage() {
         <div className="flex flex-col  gap-8">
           <div className="flex flex-col gap-4">
             <h1 className="md:text-heading text-4xl font-heading leading-tight">
-              <span className="text-primaryOrange block leading-tight">Full Stack</span>
+              <span className="text-primaryOrange block leading-tight">
+                Full Stack
+              </span>
               <span className="block leading-tight">Software Development</span>
               Training
             </h1>
@@ -55,24 +56,33 @@ export default function FullStackCoursesPage() {
           </div>
         </div>
         <div>
-          <Image src="/assets/images/fullstack.png" width={1000} height={1000} alt="fullstack" />
+          <Image
+            src="/assets/images/fullstack.png"
+            width={1000}
+            height={1000}
+            alt="fullstack"
+          />
         </div>
       </div>
       {/* hero sectiom */}
 
-    {/* program creators */}
-      <SectionHeader title="Program Creators"  subtitle="" />
-      <CreatorMenu/>
+      {/* program creators */}
+      <SectionHeader title="Program Creators" subtitle="" />
+      <CreatorMenu />
       <div className="flex md:flex-row flex-col md:gap-8 gap-6  md:mx-18 md:mt-16 mt-8 items-center justify-center">
         {creators.map((creator, index) => (
-          <CreatorCard key={index} creatorName={creator.name} year={creator.year} img={creator.img}  />
+          <CreatorCard
+            key={index}
+            creatorName={creator.name}
+            year={creator.year}
+            img={creator.img}
+          />
         ))}
       </div>
 
-
       {/* class curriculum> */}
-      <SectionHeader title="Learn with a world class curriculum"  subtitle="" />
-      <ContactCTA/>
+      <SectionHeader title="Learn with a world class curriculum" subtitle="" />
+      <ContactCTA />
     </div>
   );
 }

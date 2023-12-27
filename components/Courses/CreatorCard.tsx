@@ -6,7 +6,7 @@ interface props {
 }
 export default function CreatorCard({ creatorName, year, img }: props) {
   return (
-    < div className="flex flex-col gap-6 justify-center items-center" >
+    <div className="flex flex-col gap-6 justify-center items-center">
       <Image
         src={`/assets/images/members/${img}.png`}
         width={800}
@@ -15,9 +15,11 @@ export default function CreatorCard({ creatorName, year, img }: props) {
         alt={creatorName}
       />
       <div className=" text-center">
-        <p className="font-bold text-secondaryYellow text-lg normal-case">{creatorName}</p>
+        <p className="font-bold text-secondaryYellow text-lg normal-case">
+          {creatorName}
+        </p>
         <p className="text-base leading-normal">{year} years of expertise</p>
       </div>
-    </div >
-  )
+    </div>
+  );
 }
