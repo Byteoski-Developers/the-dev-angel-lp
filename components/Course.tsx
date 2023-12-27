@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-
 const Course = () => {
   return (
     <div className="w-full text-center font-poppins px-10 md:px-5 lg:px-16 xl:px-40">
@@ -18,10 +17,10 @@ const Course = () => {
           </h4>
           <p className="py-3 lg:py-5 font-normal text-base leading-6">
             Unlock your potential with our diverse range of courses designed to
-            meet your learning needs. Whether you&apos;re a beginner or an expert
-            looking to enhance your skills, our carefully curated selection
-            offers something for everyone. Dive into a world of knowledge and
-            opportunity with:
+            meet your learning needs. Whether you&apos;re a beginner or an
+            expert looking to enhance your skills, our carefully curated
+            selection offers something for everyone. Dive into a world of
+            knowledge and opportunity with:
           </p>
           <button className="bg-orangered px-4 gap-2.5 py-2 w-80 h-10 rounded-lg">
             <div className=" text-white font-inter text-base leading-5">

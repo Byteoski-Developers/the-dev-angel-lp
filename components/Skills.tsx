@@ -1,39 +1,36 @@
 import React from "react";
-import Image from "next/image";
 
 const Skills = () => {
-  const data=[
+  const data = [
     {
-      imageUrl:"/assets/skills/image1.png",
-      name: "Coding"
+      imageUrl: "/assets/skills/image1.png",
+      name: "Coding",
     },
     {
-      imageUrl:"/assets/skills/image2.png",
-      name:"Backend"
+      imageUrl: "/assets/skills/image2.png",
+      name: "Backend",
     },
     {
-      imageUrl:"/assets/skills/image1.png",
-      name: "Coding"
+      imageUrl: "/assets/skills/image1.png",
+      name: "Coding",
     },
     {
-      imageUrl:"/assets/skills/image2.png",
-      name:"Backend"
+      imageUrl: "/assets/skills/image2.png",
+      name: "Backend",
     },
     {
-      imageUrl:"/assets/skills/image1.png",
-      name: "Coding"
+      imageUrl: "/assets/skills/image1.png",
+      name: "Coding",
     },
     {
-      imageUrl:"/assets/skills/image1.png",
-      name: "Coding"
+      imageUrl: "/assets/skills/image1.png",
+      name: "Coding",
     },
     {
-      imageUrl:"/assets/skills/image2.png",
-      name:"Backend"
+      imageUrl: "/assets/skills/image2.png",
+      name: "Backend",
     },
-    
-   
-  ]
+  ];
   return (
     <div className="w-full mx-auto text-center font-poppins px-10 md:px-5 lg:px-16 xl:px-40">
       <h2 className="text-3xl py-2 lg:py-4 font-bold ">
@@ -44,21 +41,20 @@ const Skills = () => {
       </h3>
 
       <div className="mx-36 py-16 flex flex-wrap justify-center gap-10 ">
-       
-         { 
-         data.map((Skills)=>{
-          return(
-          <div>
-           <img src={Skills.imageUrl}
-           width={39}
-           height={28}
-           className="inline"/><span className="px-2 font-bold">{Skills.name}</span></div>
-          
-          )})
-          }
-       
+        {data.map((Skills, idx) => {
+          return (
+            <div key={idx}>
+              <img
+                src={Skills.imageUrl}
+                width={39}
+                height={28}
+                className="inline"
+              />
+              <span className="px-2 font-bold">{Skills.name}</span>
+            </div>
+          );
+        })}
       </div>
-     
     </div>
   );
 };

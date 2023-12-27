@@ -4,7 +4,7 @@ export default function landingPage() {
   return (
     <>
       <Course />
-      <Skills/>
+      <Skills />
     </>
   );
 }
