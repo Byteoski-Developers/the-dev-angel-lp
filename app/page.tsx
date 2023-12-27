@@ -1,12 +1,14 @@
 import Course from "@/components/Course";
+
 import Whydevangel from "@/components/Whydevangel";
-let fun = function landingPage() {
+
+import Skills from "@/components/Skills";
+export default function landingPage() {
   return (
     <>
       <Whydevangel />
       <Course />
+      <Skills />
     </>
   );
-};
-
-export default fun;
+}
