@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import { link } from "@/app/components/types";
+import { links } from "@/app/components/types";
 import Link from "next/link";
 export default function MobileMenu() {
   useEffect(() => {
@@ -88,7 +88,7 @@ export default function MobileMenu() {
         </div>
         <div>
           <ul className="">
-            {link.map((link) => (
+            {links.map((link) => (
               <li key={link.link}>
                 <Link href={`/${link.link}`} className=" my-1">
                   <div className="my-3 mx-3 px-3 py-4 rounded-md text-sm text-gray-500 font-medium font-poppins hover:text-orangered-100 hover:bg-orangered-300">

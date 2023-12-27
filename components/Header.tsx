@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
-import { link } from "@/app/components/types";
+import { links } from "@/app/components/types";
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
           height={40}
         />
         <ul className="lg:flex md:flex flex-row items-center justify-center gap-5 text-left text-sm text-darkslategray font-poppins hidden ">
-          {link.map((link) => (
+          {links.map((link) => (
             <li key={link.link}>
               <Link
                 href={`/${link.link}`}

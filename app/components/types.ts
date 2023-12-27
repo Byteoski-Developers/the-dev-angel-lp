@@ -4,7 +4,7 @@ export type navlink = {
 };
 
 export type navLinks = navlink[];
-export const link: navLinks = [
+export const links: navLinks = [
   {
     title: "Home",
     link: "",
