@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: ["class"], // or 'media' or 'class'
   theme: {
     fontSize: {
       sm: "1rem", //16
@@ -30,8 +31,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
 
+      screens: {
+        xs: "475px",
+      },
       colors: {
-        orangered: "#ff5722",
+        orangered: {
+          "100": "#ff5722",
+          "200": "rgba(255, 87, 34, 0.8)",
+          "300": "rgba(255, 87, 34, 0.1)",
+        },
         grey: "#B5B5B5",
         lightyellow: "#FFC107",
         lightorange: "#FF5722",
