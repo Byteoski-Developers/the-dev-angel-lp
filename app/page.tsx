@@ -1,12 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import logo from '../public/assets/images/Logo.svg';
-let fun = function landingPage() {
+import Course from "@/components/Course";
+import Hero from "@/components/Hero/Hero";
+import Skills from "@/components/Skills";
+import Whydevangel from "@/components/Whydevangel";
+import { Marque } from "@/components/Marquee/Marquee";
+
+export default function landingPage() {
   return (
     <>
-      <p>hkadfkafkjnasdf</p>
+      <Hero />
+      <Marque />
+      <Whydevangel />
+      <Course />
+      <Skills />
     </>
-  )
+  );
 }
-
-export default fun;
