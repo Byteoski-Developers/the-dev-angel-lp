@@ -13,7 +13,7 @@ export default function SectionHeader({ title, subtitle }: Props) {
         {`<`} <span className="text-primaryOrange">{words[0]}</span>{" "}
         {words.slice(1).join(" ")} {`>`}
       </div>
-      <div className="md:text-xl text-base font-semibold opacity-60">
+      <div className="md:text-2xl text-base text-center text-grey mt-2">
         {subtitle}
       </div>
     </div>

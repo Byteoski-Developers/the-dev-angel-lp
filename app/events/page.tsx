@@ -21,17 +21,17 @@ export default function Events() {
 
       {/* Orange Box */}
       <div className="w-full text-center font-poppins px-8 md:px-5 lg:px-16 xl:px-40 mb-8">
-        <div className="h-12 px-8 py-2 mb-6 bg-orange-600 bg-opacity-10 rounded-lg flex-col justify-start items-start gap-1.5 inline-flex">
+        <div className="h-12 px-8 py-2 mb-6  text-primaryOrange bg-primaryOrangeLight  rounded-lg flex-col justify-start items-start gap-1.5 inline-flex">
           <div className="justify-start items-end gap-1 inline-flex">
             <div className="w-1 h-1 relative" />
             <div>
-              <div className="text-orange-600 text-xs font-normal inline ">
+              <div className=" text-primaryOrange text-xs font-normal inline ">
                 Fill{" "}
               </div>
-              <div className="text-orange-600 text-xs font-bold underline inline">
+              <div className= " text-primaryOrange text-xs font-bold underline inline">
                 this form
               </div>
-              <div className="text-orange-600 text-xs font-normal inline">
+              <div className=" text-primaryOrange text-xs font-normal inline">
                 if you want to host your event at your campus.
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Events() {
               Topic-2
             </span>
           </div>
-          <div className="text-orange-600 text-base mx-2 py-3 font-normal font-['Poppins']">
+          <div className=" text-primaryOrange text-base mx-2 py-3 font-normal font-['Poppins']">
             Explore Event{" "}
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function Events() {
               Topic-2
             </span>
           </div>
-          <div className="text-orange-600 text-base mx-2 py-3 font-normal font-['Poppins']">
+          <div className="text-primaryOrange text-base mx-2 py-3 font-normal font-['Poppins']">
             Explore Event{" "}
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function Events() {
               Topic-2
             </span>
           </div>
-          <div className="text-orange-600 text-base mx-2 py-3 font-normal font-['Poppins']">
+          <div className="text-primaryOrange text-base mx-2 py-3 font-normal font-['Poppins']">
             Explore Event{" "}
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function Events() {
 
       {/* View More Button */}
       <button className="w-full text-center font-poppins px-8 md:px-5 lg:px-16 xl:px-40 mb-10 mt-8">
-        <div className="w-60 h-12 px-4 py-2 bg-orange-600 rounded-lg justify-center items-center gap-2.5 inline-flex">
+        <div className="w-60 h-12 px-4 py-2 bg-primaryOrange rounded-lg justify-center items-center gap-2.5 inline-flex">
           <div className="text-white text-xs font-semibold font-['Inter']">
             View More
           </div>

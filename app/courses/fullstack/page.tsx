@@ -36,14 +36,14 @@ export default function FullStackCoursesPage() {
       <div className="grid md:grid-cols-2 grid-cols-1 md:mt-12 mt-6 gap-6">
         <div className="flex flex-col  gap-8">
           <div className="flex flex-col gap-4">
-            <h1 className="md:text-heading text-4xl font-heading leading-tight">
+            <h1 className="md:text-5xl text-4xl font-bold leading-tight">
               <span className="text-primaryOrange block leading-tight">
                 Full Stack
               </span>
               <span className="block leading-tight">Software Development</span>
               Training
             </h1>
-            <p className="md:text-xl text-base w-full font-semibold opacity-75">
+            <p className="md:text-xl text-base w-full  opacity-75">
               The DevAngel is started for supporting students / young
               Professionals to build their products, learn technology in all
               domains be it web, apps, devOps, product management, indie Hacking
