@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "@/app/components/Card";
 import clsx from "clsx";
+import React from "react";
+import Card from "@/app/components/Card";
+import clsx from "clsx";
 import Image from "next/image";
 
 const Whydevangel = () => {
@@ -75,3 +78,4 @@ const Whydevangel = () => {
 };
 
 export default Whydevangel;
+

@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: ["class"], // or 'media' or 'class'
   theme: {
     extend: {
       gradientColorStops: {
@@ -20,10 +21,19 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        gradient: "linear-gradient(90.27deg, #FF5722 3.11%, #FFC107 98%)",
       },
-
+      boxShadow: {
+        boxGlow: "0px 6px 10px 5px #FF57221",
+      },
       colors: {
-        orangered: "#ff5722",
+        primaryOrange: "#ff5722",
+        secondaryYellow: "#FFC107",
+        orangered: {
+          "100": "#ff5722",
+          "200": "rgba(255, 87, 34, 0.8)",
+          "300": "rgba(255, 87, 34, 0.1)",
+        },
         grey: "#B5B5B5",
         lightyellow: "#FFC107",
         lightorange: "#FF5722",
@@ -36,6 +46,15 @@ const config: Config = {
         poppins: "Poppins",
         inter: "Inter",
         montserrat: "Montserrat",
+      },
+      fontSize: {
+        heading: "48px",
+      },
+      fontWeight: {
+        heading: "700",
+      },
+      lineHeight: {
+        heading: "72px",
       },
     },
   },
