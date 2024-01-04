@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Skills = () => {
   const data = [
@@ -44,11 +45,12 @@ const Skills = () => {
         {data.map((Skills, idx) => {
           return (
             <div key={idx}>
-              <img
+              <Image
                 src={Skills.imageUrl}
                 width={39}
                 height={28}
                 className="inline"
+                alt="Skills"
               />
               <span className="px-2 font-bold">{Skills.name}</span>
             </div>
