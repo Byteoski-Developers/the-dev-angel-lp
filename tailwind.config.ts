@@ -7,14 +7,6 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontSize: {
-      sm: "1rem", //16
-      base: "1.25rem", //20
-      xl: "1.5rem", //24
-      "2xl": "2rem", //32
-      "3xl": "5rem",
-    },
-
     extend: {
       gradientColorStops: {
         "orange-500": "#FF5722",
