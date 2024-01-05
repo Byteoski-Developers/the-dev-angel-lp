@@ -10,7 +10,6 @@ export default function landingPage() {
       <ProductBuilt />
       <AboutUs />
       <OurTeam />
-      
     </>
   );
 }
