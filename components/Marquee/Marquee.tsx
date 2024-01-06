@@ -8,7 +8,7 @@ export const Marque = () => {
     <div className="pb-40">
       <div className="relative top-0 md:top-5 md:rotate-6 sm:rotate-0">
         <FastMarquee
-          className="bg-orangered-200"
+          className="bg-primaryOrange"
           pauseOnHover
           autoFill={true}
           speed={100}
@@ -56,9 +56,4 @@ export const Marque = () => {
   );
 };
 
-// export const Marque2 = () => {
 
-//     return (
-
-//     )
-// }

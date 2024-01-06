@@ -29,7 +29,7 @@ const Whydevangel = () => {
       <div className="flex flex-col  w-full place-content-center ">
         <p className="flex place-content-center font-bold font-poppins text-xl">
           <span>{"<"} Why </span>
-          <span className="text-orange-500">Devangel? </span>
+          <span className=" text-primaryOrange">Devangel? </span>
           <span>{">"}</span>
         </p>
         <p className="flex text-grey font-medium place-content-center font-poppins text-base ">
