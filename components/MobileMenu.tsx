@@ -83,7 +83,7 @@ export default function MobileMenu() {
             {links.map((link) => (
               <li key={link.link}>
                 <Link href={`/${link.link}`} className=" my-1">
-                  <div className="my-3 mx-3 px-3 py-4 rounded-md text-sm text-gray-500 font-medium font-poppins hover:text-orangered-100 hover:bg-orangered-300">
+                  <div className="my-3 mx-3 px-3 py-4 rounded-md text-sm text-gray-500 font-medium font-poppins hover:text-primaryOrange hover:bg-primaryOrange">
                     {link.title}
                   </div>
                 </Link>
@@ -91,7 +91,7 @@ export default function MobileMenu() {
             ))}
           </ul>
         </div>
-        <button className=" px-4 py-3 my-5 text-xs text-center font-semibold leading-none text-white bg-orangered-100  rounded-xl">
+        <button className=" px-4 py-3 my-5 text-xs text-center font-semibold leading-none text-white bg-primaryOrange  rounded-xl">
           Training
         </button>
       </nav>
