@@ -6,9 +6,9 @@ export default function ContactCTA() {
       <div className="flex md:flex-row flex-col gap-6 bg-white rounded-md p-8">
         <div className="md:w-[700px] w-full h-64 border border-gray-300 mb-6"></div>
         <div className="flex flex-col justify-center items-start gap-6">
-          <div className="text-heading font-heading text-start">
+          <div className=" text-5xl font-bold text-start">
             Got a <span className="text-primaryOrange">Question?</span>
-            <p className="text-xl font-normal leading-normal">
+            <p className="text-base font-normal leading-normal">
               Chat with our Experts
             </p>
           </div>
