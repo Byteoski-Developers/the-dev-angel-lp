@@ -69,21 +69,13 @@ export default function MobileMenu() {
             width={98}
             height={40}
           />
-          <button className="navbar-close  border-2 p-1 border-primaryOrange rounded-md shadow transition ease-in-out hover:-translate-y-1 delay-10 hover:scale-110 active:ring active:ring-primaryOrange">
-            <svg
-              className="h-6 w-6 text-primaryOrange cursor-pointer "
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
+          <button className="navbar-close  border-2 p-1 border-orangered-300 rounded-md shadow transition ease-in-out hover:-translate-y-1 delay-10 hover:scale-110 active:ring active:ring-orangered-100">
+            <Image
+              src={"/assets/images/close.svg"}
+              alt="close button"
+              width={20}
+              height={20}
+            />
           </button>
         </div>
         <div>
