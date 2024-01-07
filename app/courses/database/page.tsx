@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 import SectionHeader from "@/components/common/SectionHeader";
 import Button from "@/components/common/Button";
@@ -23,10 +23,11 @@ const creators = [
   },
 ];
 
-
 export default function database() {
   return (
-    <>  {/* hero sectiom */}
+    <>
+      {" "}
+      {/* hero sectiom */}
       <div className="grid md:grid-cols-2 grid-cols-1 md:mt-12 mt-6 gap-6">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
@@ -57,7 +58,6 @@ export default function database() {
         </div>
       </div>
       {/* hero sectiom */}
-
       {/* program creators */}
       <SectionHeader title="Program Creators" subtitle="" />
       <CreatorMenu />
@@ -71,9 +71,8 @@ export default function database() {
           />
         ))}
       </div>
-
       {/* class curriculum> */}
       <SectionHeader title="Learn with a world class curriculum" subtitle="" />
     </>
-  )
+  );
 }

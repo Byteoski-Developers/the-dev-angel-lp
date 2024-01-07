@@ -8,7 +8,7 @@ import { links } from "@/app/components/types";
 export default function Header() {
   return (
     <>
-      <nav className="my-2 mx-30 bg-white flex justify-between items-center">
+      <nav className="my-2 mx-28 px-2 bg-white flex justify-between items-center">
         <Image
           src={"/assets/images/Logo.svg"}
           alt="Logo"

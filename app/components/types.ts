@@ -15,7 +15,7 @@ export const links: navLinks = [
   },
   {
     title: "About",
-    link: "About",
+    link: "about",
   },
   {
     title: "Contact Us",

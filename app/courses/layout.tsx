@@ -14,5 +14,6 @@ export default function CourseLayout({
         {children}
         <ContactCTA />
       </div>
-    </div>)
+    </div>
+  );
 }

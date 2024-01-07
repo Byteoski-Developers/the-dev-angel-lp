@@ -36,8 +36,8 @@ const cardsData = [
 export default function about() {
   return (
     <>
-      <div className="mx-30 flex flex-col items-center">
-        <div className="relative text-3xl  font-poppins w-full flex flex-col items-center bg-gradient-to-b from-lightyellow to-lightorange text-transparent bg-clip-text font-semibold">
+      <div className="mx-28 px-2 flex flex-col items-center">
+        <div className="text-4xl mt-9 mb-8 font-poppins bg-gradient-to-t from-secondaryYellow to-primaryOrange  text-transparent bg-clip-text font-semibold">
           About Us
         </div>
         <Image
@@ -50,12 +50,12 @@ export default function about() {
         {cardsData.map((card) => (
           <div key={card.date} className="w-full relative flex flex-row">
             <div className="flex flex-col mr-1 w-1/12">
-              <div className="mt-3 font-poppins text-gray font-medium">
+              <div className="mt-3 font-poppins text-grey font-medium text-base ">
                 {card.date}
               </div>
             </div>
             <div className="flex flex-col mx-2 relative">
-              <div className="mx-2 w-1 grow bg-lightyellow " />
+              <div className="mx-2 w-1 grow bg-secondaryYellow  " />
               <div className="absolute top-3">
                 <Image
                   src={"/assets/images/bullet.svg"}
@@ -66,17 +66,22 @@ export default function about() {
               </div>
             </div>
             <div className="flex flex-col w-2/3 pb-10">
-              <h4 className="font-semibold mb-1 text-xl">
+              <h4 className="font-semibold mb-1 text-xl font-poppins text-black">
                 {card.blackTitle}
-                <span className="text-orangered"> {card.orangeredTitle}</span>
+                <span className="text-primaryOrange">
+                  {" "}
+                  {card.orangeredTitle}
+                </span>
               </h4>
-              <p className="leading-relaxed text-xs">{card.description}</p>
+              <p className="leading-relaxed text-xs font-medium font-poppins text-darkslategray">
+                {card.description}
+              </p>
             </div>
           </div>
         ))}
       </div>
       <div className="border border-t border-orangered" />
-      <div className="mx-30 my-12 text-base">
+      <div className="mx-28 px-2 my-12 text-base font-medium font-poppins text-black leading-relaxed">
         <p className="text-center">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC, making
