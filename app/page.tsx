@@ -1,15 +1,13 @@
 import Course from "@/components/Course";
-import ProductBuilt from "@/components/ProductBuilt";
-import AboutUs from "@/components/AboutUs";
-import OurTeam from "@/components/OurTeam";
+import ProductBuilt from "@/components/productbuilt";
+
 
 export default function landingPage() {
   return (
     <>
       <Course />
       <ProductBuilt />
-      <AboutUs />
-      <OurTeam />
+   
     </>
   );
 }
