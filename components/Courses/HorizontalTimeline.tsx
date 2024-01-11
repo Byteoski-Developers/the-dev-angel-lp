@@ -4,7 +4,7 @@ import { RefObject } from "react";
 import Slider from "@mui/material/Slider";
 import { ICurriculumData, curriculumData } from "@/constants/curriculumData";
 import { CurriculumCard } from "./CurriculumCard";
-import { createTheme } from "@mui/material";
+import { Box, LinearProgress, createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
 
 const HorizontalTimeline: React.FC = () => {
@@ -66,25 +66,37 @@ const HorizontalTimeline: React.FC = () => {
             </button>
           ))}
         </div>
-        <div className="hidden sm:flex sm:w-full">
+
+        <div className="hidden sm:flex sm:w-full my-4">
           <ThemeProvider theme={theme}>
-            <Slider
+            <Box sx={{ width: '100%' }}>
+              <LinearProgress
+                value={width}
+                color="primary"
+                variant="determinate"
+              />
+            </Box>
+            {/* <Slider
               min={0}
               max={100}
               size="small"
               defaultValue={width}
               aria-label="Small"
               valueLabelDisplay="auto"
-              disabled={true}
               color="primary"
               key={width}
-            />
+              onChange={(e, value) => {
+                setIndex(selected)
+              }}
+            /> */}
           </ThemeProvider>
         </div>
         <div className="flex flex-col justify-center items-center w-full">
-          {curriculumData.map((item: ICurriculumData) => (
-            <CurriculumCard key={item.id} item={item} selected={selected} />
-          ))}
+          {
+            curriculumData.map((item: ICurriculumData) => (
+              <CurriculumCard key={item.id} item={item} selected={selected} />
+            ))
+          }
         </div>
       </div>
     </div>
