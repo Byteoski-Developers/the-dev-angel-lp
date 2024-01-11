@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import { RefObject } from "react";
-import Slider from "@mui/material/Slider";
 import { ICurriculumData, curriculumData } from "@/constants/curriculumData";
 import { CurriculumCard } from "./CurriculumCard";
 import { Box, LinearProgress, createTheme } from "@mui/material";
