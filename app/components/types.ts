@@ -10,6 +10,10 @@ export const links: navLinks = [
     link: "",
   },
   {
+    title: "Courses",
+    link: "courses",
+  },
+  {
     title: "About",
     link: "About",
   },
@@ -19,6 +23,6 @@ export const links: navLinks = [
   },
   {
     title: "Events",
-    link: "Events",
+    link: "events",
   },
 ];

@@ -70,20 +70,12 @@ export default function MobileMenu() {
             height={40}
           />
           <button className="navbar-close  border-2 p-1 border-orangered-300 rounded-md shadow transition ease-in-out hover:-translate-y-1 delay-10 hover:scale-110 active:ring active:ring-orangered-100">
-            <svg
-              className="h-6 w-6 text-orangered-200 cursor-pointer "
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
+            <Image
+              src={"/assets/images/close.svg"}
+              alt="close button"
+              width={20}
+              height={20}
+            />
           </button>
         </div>
         <div>
@@ -91,7 +83,7 @@ export default function MobileMenu() {
             {links.map((link) => (
               <li key={link.link}>
                 <Link href={`/${link.link}`} className=" my-1">
-                  <div className="my-3 mx-3 px-3 py-4 rounded-md text-sm text-gray-500 font-medium font-poppins hover:text-orangered-100 hover:bg-orangered-300">
+                  <div className="my-3 mx-3 px-3 py-4 rounded-md text-sm text-gray-500 font-medium font-poppins hover:text-primaryOrange hover:bg-primaryOrange">
                     {link.title}
                   </div>
                 </Link>
@@ -99,7 +91,7 @@ export default function MobileMenu() {
             ))}
           </ul>
         </div>
-        <button className=" px-4 py-3 my-5 text-xs text-center font-semibold leading-none text-white bg-orangered-100  rounded-xl">
+        <button className=" px-4 py-3 my-5 text-xs text-center font-semibold leading-none text-white bg-primaryOrange  rounded-xl">
           Training
         </button>
       </nav>

@@ -1,17 +1,15 @@
-import CourseMenu from "@/components/Courses/CourseMenu";
+import Image from "next/image"
+
 import SectionHeader from "@/components/common/SectionHeader";
 import Button from "@/components/common/Button";
-import Image from "next/image";
 import CreatorMenu from "@/components/Courses/CreatorMenu";
 import CreatorCard from "@/components/Courses/CreatorCard";
-import ContactCTA from "@/components/common/ContactCTA";
-import CourseCurriculum from "@/components/Courses/CourseCurriculum";
 
 const creators = [
   {
     name: "Anubhav Gupta",
     year: "20",
-    img: "anubhav",
+    img: "gautam",
   },
   {
     name: "Gautam Singla",
@@ -25,26 +23,19 @@ const creators = [
   },
 ];
 
-export default function FullStackCoursesPage() {
+
+export default function database() {
   return (
-    <div className="border-3  view-container">
-      {/* header menu */}
-      <div className="flex flex-col gap-2">
-        <p>Select Course*</p>
-        <CourseMenu />
-      </div>
-      {/* hero sectiom */}
+    <>  {/* hero sectiom */}
       <div className="grid md:grid-cols-2 grid-cols-1 md:mt-12 mt-6 gap-6">
-        <div className="flex flex-col  gap-8">
+        <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
-            <h1 className="md:text-heading text-4xl font-heading leading-tight">
-              <span className="text-primaryOrange block leading-tight">
-                Full Stack
-              </span>
-              <span className="block leading-tight">Software Development</span>
-              Training
+            <h1 className="md:text-5xl text-4xl font-bold leading-relaxed">
+              <span className="text-primaryOrange block">Database</span>
+              <span className="my-3 block">Training Software</span>
+              <span>Development</span>
             </h1>
-            <p className="md:text-xl text-base w-full font-semibold opacity-75">
+            <p className="text-base w-full  opacity-75">
               The DevAngel is started for supporting students / young
               Professionals to build their products, learn technology in all
               domains be it web, apps, devOps, product management, indie Hacking
@@ -81,8 +72,8 @@ export default function FullStackCoursesPage() {
         ))}
       </div>
 
-      <CourseCurriculum />
-      <ContactCTA />
-    </div>
-  );
+      {/* class curriculum> */}
+      <SectionHeader title="Learn with a world class curriculum" subtitle="" />
+    </>
+  )
 }

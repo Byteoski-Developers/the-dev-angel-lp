@@ -20,20 +20,20 @@ export default function Header() {
             <li key={link.link}>
               <Link
                 href={`/${link.link}`}
-                className=" hover:text-orangered-100 hover:underline hover:underline-orangered-100 hover:underline-offset-8 hover:underline-ease-in-out "
+                className=" hover:text-primaryOrange hover:underline hover:underline-primaryOrange hover:underline-offset-8 hover:underline-ease-in-out "
               >
                 {link.title}
               </Link>
             </li>
           ))}
         </ul>
-        <button className="relative hidden lg:inline-block md:inline-block rounded-lg bg-orangered-100 h-[30px] w-[82px] py-2">
+        <button className="relative hidden lg:inline-block md:inline-block rounded-lg bg-primaryOrange h-[30px] w-[82px] py-2">
           <div className="text-xs font-inter font-semibold text-white">
             Training
           </div>
         </button>
         <div className="lg:hidden md:hidden">
-          <button className="navbar-burger flex items-center text-orangered-100">
+          <button className="navbar-burger flex items-center text-primaryOrange">
             <svg
               className="block h-4 w-4 fill-current"
               viewBox="0 0 20 20"
