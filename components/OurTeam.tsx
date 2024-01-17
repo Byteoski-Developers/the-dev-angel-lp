@@ -14,8 +14,8 @@ const TeamMember: React.FC<creatorCards> = ({ name, expertise, imageSrc, altText
       <Image
         src={imageSrc}
         alt={altText}
-        height={256}
-        width={256}
+        height={1024}
+        width={1024}
         className="size-64 object-cover rounded-lg p-[2px] bg-gradient-to-b from-primaryOrange to-secondaryYellow shadow-sm shadow-primaryOrange"
       />
       <div className="text-center">
