@@ -6,7 +6,6 @@ import Whydevangel from "@/components/Whydevangel";
 import OurTeam from "@/components/OurTeam";
 import { Marque } from "@/components/Marquee/Marquee";
 
-
 export default function landingPage() {
   return (
     <>
@@ -16,9 +15,8 @@ export default function landingPage() {
       <OurTeam />
       <Course />
       <ProductBuilt />
-   
+
       <Skills />
-      
     </>
   );
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Image from "next/image";
 
 interface creatorCards {
@@ -8,7 +8,12 @@ interface creatorCards {
   altText: string;
 }
 
-const TeamMember: React.FC<creatorCards> = ({ name, expertise, imageSrc, altText }) => {
+const TeamMember: React.FC<creatorCards> = ({
+  name,
+  expertise,
+  imageSrc,
+  altText,
+}) => {
   return (
     <div className="flex flex-col justify-center items-center gap-6">
       <Image
@@ -19,8 +24,12 @@ const TeamMember: React.FC<creatorCards> = ({ name, expertise, imageSrc, altText
         className="size-64 object-cover rounded-lg p-[2px] bg-gradient-to-b from-primaryOrange to-secondaryYellow shadow-sm shadow-primaryOrange"
       />
       <div className="text-center">
-        <p className="font-bold text-lg text-secondaryYellow normal-case">{name}</p>
-        <p className="text-base leading-normal text-black dark:text-white font-semibold">{expertise}</p>
+        <p className="font-bold text-lg text-secondaryYellow normal-case">
+          {name}
+        </p>
+        <p className="text-base leading-normal text-black dark:text-white font-semibold">
+          {expertise}
+        </p>
       </div>
     </div>
   );
@@ -64,4 +73,3 @@ const OurTeam: React.FC = () => {
 };
 
 export default OurTeam;
-
