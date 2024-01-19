@@ -4,11 +4,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   @apply leading-[normal] m-0;
 }
+
 *,
 ::before,
 ::after {
   border-width: 0;
+}
+
+.view-container {
+  @apply box-border mx-auto;
+  @apply w-[1320px] max-2xl:w-[1280px] max-xl:w-[1020px] max-lg:w-[720px] max-md:w-[640px] max-sm:w-[300px];
+}
+.arrow-container {
+  display: flex;
+  align-items: center;
 }

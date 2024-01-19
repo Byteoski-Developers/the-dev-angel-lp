@@ -6,16 +6,19 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: ["class"], // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        gradient: "linear-gradient(90.27deg, #FF5722 3.11%, #FFC107 98%)",
       },
       colors: {
-        orangered: "#ff5722",
+        primaryOrange: "#ff5722",
+        secondaryYellow: "#FFC107",
+        primaryOrangeLight: "#FFEFE9",
+        grey: "#B5B5B5",       
       },
+
       fontFamily: {
         poppins: "Poppins",
         inter: "Inter",

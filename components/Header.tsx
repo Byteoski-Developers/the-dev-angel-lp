@@ -1,27 +1,53 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-const links = ["Home", "About", "Contact Us", "Events"];
+import MobileMenu from "./MobileMenu";
+import { links } from "@/app/components/types";
+
 export default function Header() {
   return (
-    <nav className="my-2 mx-20 bg-white flex justify-between items-center ">
-      <Image src={"/assets/images/Logo.svg"} alt="Logo" width={127} height={52} />
-      <ul className="relative w-[262px] h-[21px] flex flex-row items-start justify-start gap-[18px] text-left text-sm text-darkslategray font-poppins">
-        {links.map((link) => (
-          <li key={link}>
-            <Link
-              href={link.toLowerCase().replace(/\s+/g, "-")}
-              className="relative hover:text-orangered font-poppins"
+    <>
+      <nav className="my-2 mx-30 bg-white flex justify-between items-center">
+        <Image
+          src={"/assets/images/Logo.svg"}
+          alt="Logo"
+          width={98}
+          height={40}
+        />
+        <ul className="lg:flex md:flex flex-row items-center justify-center gap-5 text-left text-sm text-darkslategray font-poppins hidden ">
+          {links.map((link) => (
+            <li key={link.link}>
+              <Link
+                href={`/${link.link}`}
+                className=" hover:text-primaryOrange hover:underline hover:underline-primaryOrange hover:underline-offset-8 hover:underline-ease-in-out "
+              >
+                {link.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <button className="relative hidden lg:inline-block md:inline-block rounded-lg bg-primaryOrange h-[30px] w-[82px] py-2">
+          <div className="text-xs font-inter font-semibold text-white">
+            Training
+          </div>
+        </button>
+        <div className="lg:hidden md:hidden">
+          <button className="navbar-burger flex items-center text-primaryOrange">
+            <svg
+              className="block h-4 w-4 fill-current"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              {link}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <button className="relative rounded-lg bg-orangered h-[30px] w-[82px] py-2 px-4">
-        <div className="relative text-[12px] font-inter font-semibold text-white">
-          Training
+              <title>Mobile menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
         </div>
-      </button>
-    </nav>
+      </nav>
+      <div className="lg:hidden md:hidden">
+        <MobileMenu />
+      </div>
+    </>
   );
 }
