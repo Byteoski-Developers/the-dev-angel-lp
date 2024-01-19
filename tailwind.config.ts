@@ -17,6 +17,7 @@ const config: Config = {
         secondaryYellow: "#FFC107",
         primaryOrangeLight: "#FFEFE9",
         grey: "#B5B5B5",
+        darkslategray: "#333",
       },
 
       fontFamily: {
