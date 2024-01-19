@@ -3,6 +3,8 @@ import Button from "@/components/common/Button";
 import Image from "next/image";
 import CreatorMenu from "@/components/Courses/CreatorMenu";
 import CreatorCard from "@/components/Courses/CreatorCard";
+import ContactCTA from "@/components/common/ContactCTA";
+import CourseCurriculum from "@/components/Courses/CourseCurriculum";
 
 const creators = [
   {
@@ -56,6 +58,7 @@ export default function FullStackCourses() {
           />
         </div>
       </div>
+
       {/* hero sectiom */}
       {/* program creators */}
       <SectionHeader title="Program Creators" subtitle="" />
@@ -71,7 +74,8 @@ export default function FullStackCourses() {
         ))}
       </div>
       {/* class curriculum> */}
-      <SectionHeader title="Learn with a world class curriculum" subtitle="" />
+      <CourseCurriculum />
+      <ContactCTA />
     </>
   );
 }
