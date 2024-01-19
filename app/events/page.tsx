@@ -28,7 +28,7 @@ export default function Events() {
               <div className=" text-primaryOrange text-xs font-normal inline ">
                 Fill{" "}
               </div>
-              <div className= " text-primaryOrange text-xs font-bold underline inline">
+              <div className=" text-primaryOrange text-xs font-bold underline inline">
                 this form
               </div>
               <div className=" text-primaryOrange text-xs font-normal inline">

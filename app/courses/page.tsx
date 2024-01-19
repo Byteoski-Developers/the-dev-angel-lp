@@ -24,7 +24,9 @@ const creators = [
 
 export default function FullStackCourses() {
   return (
-    <>  {/* hero sectiom */}
+    <>
+      {" "}
+      {/* hero sectiom */}
       <div className="grid md:grid-cols-2 grid-cols-1 md:mt-12 mt-6 gap-6">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
@@ -55,7 +57,6 @@ export default function FullStackCourses() {
         </div>
       </div>
       {/* hero sectiom */}
-
       {/* program creators */}
       <SectionHeader title="Program Creators" subtitle="" />
       <CreatorMenu />
@@ -69,7 +70,6 @@ export default function FullStackCourses() {
           />
         ))}
       </div>
-
       {/* class curriculum> */}
       <SectionHeader title="Learn with a world class curriculum" subtitle="" />
     </>
