@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const logos = [
-  "/assets/images/Canva svg.svg",
-  "/assets/images/Nike svg.svg",
-  "/assets/images/Amazon svg.svg",
+  "/assets/images/Canvasvg.svg",
+  "/assets/images/Nikesvg.svg",
+  "/assets/images/Amazonsvg.svg",
   "/assets/images/Coca-cola.svg",
 
 ];
