@@ -5,12 +5,11 @@ import Whydevangel from "@/components/Whydevangel";
 import { Marque } from "@/components/Marquee/Marquee";
 import Footer from "@/components/Footer";
 // import Contact from "./contact-us/page";
-import Contact_us from "@/components/Contact_us";
+import ContactUs from "@/components/ContactUs";
 import HiringPartners from "@/components/HiringPartners";
 import OurCourses from "@/components/OurCourses";
 import OurTeams from "@/components/OurTeams";
 import OurClientReviews from "@/components/OurClientReviews";
-
 
 export default function landingPage() {
   return (
@@ -18,12 +17,12 @@ export default function landingPage() {
       <Hero />
       <Marque />
       <Whydevangel />
-      <OurClientReviews/>
+      <OurClientReviews />
       <OurTeams />
-      <OurCourses/>
-      <HiringPartners/>
-      <Contact_us/>
-      <Footer/>
+      <OurCourses />
+      <HiringPartners />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

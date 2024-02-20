@@ -26,7 +26,7 @@ export const links: navLinks = [
     link: "events",
   },
   {
-    title:"Hire From Us",
+    title: "Hire From Us",
     link: "Hire From Us",
   },
 ];

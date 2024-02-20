@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
-import { links } from "@/app/components/types";
+import { links } from "@/components/types";
 
 export default function Header() {
   return (
