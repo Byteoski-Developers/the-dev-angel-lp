@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 
+
 export default function Contact() {
   return (
     <>
@@ -166,15 +167,8 @@ export default function Contact() {
                 type="submit"
                 className="inline-flex w-9/11 items-center justify-center space-x-2 rounded-lg border border-[#FF5722] bg-[#FF5722] px-8 py-4 focus:bg-[#FF5722] font-semibold leading-6 text-white hover:border-[#ff5622aa] hover:bg-[#ff562294] hover:text-white focus:ring  focus:ring-opacity-50 active:bg-[#FF5722] active:border-[FF5722] dark:focus:ring-[#FF5722] dark:focus:ring-opacity-90 border-b-[6px] z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105"
               >
-                <svg
-                  className="hi-mini hi-paper-airplane inline-block size-5 opacity-50"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M3.105 2.289a.75.75 0 00-.826.95l1.414 4.925A1.5 1.5 0 005.135 9.25h6.115a.75.75 0 010 1.5H5.135a1.5 1.5 0 00-1.442 1.086l-1.414 4.926a.75.75 0 00.826.95 28.896 28.896 0 0015.293-7.154.75.75 0 000-1.115A28.897 28.897 0 003.105 2.289z" />
-                </svg>
+                
+                  <img  className = "w-7"src = {"./Frame 3.svg"} alt = "frame3"></img>
                 <span>Submit</span>
               </button>
             </div>
