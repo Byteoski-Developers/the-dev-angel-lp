@@ -1,9 +1,7 @@
-import Course from "@/components/Course";
 // import ProductBuilt from "@/components/ProductBuilt";
 import Hero from "@/components/Hero/Hero";
 // import Skills from "@/components/Skills";
 import Whydevangel from "@/components/Whydevangel";
-import OurTeam from "@/components/OurTeam";
 import { Marque } from "@/components/Marquee/Marquee";
 import Footer from "@/components/Footer";
 // import Contact from "./contact-us/page";
