@@ -5,8 +5,6 @@ const logos = [
   "/assets/images/Nikesvg.svg",
   "/assets/images/Amazonsvg.svg",
   "/assets/images/coca-cola.svg",
-
-  "/assets/images/Coca-cola.svg",
 ];
 const ProductBuilt = () => {
   return (
