@@ -2,9 +2,11 @@ export default function OurCourses() {
   return (
     <>
       <div className="bg-white dark:bg-gray-800 dark:text-gray-100 ">
-        <div className="container mx-auto space-y-16 px-4 py-16  lg:px-8 lg:py-16 xl:max-w-7xl 
+        <div
+          className="container mx-auto space-y-16 px-4 py-16  lg:px-8 lg:py-16 xl:max-w-7xl 
         
-        bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[rgba(255,193,7,0.22)]  via-[rgba(255,193,7,0.02)] to-white">
+        bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[rgba(255,193,7,0.22)]  via-[rgba(255,193,7,0.02)] to-white"
+        >
           {/* Heading */}
           <div className="text-center ">
             {/* <div className="mb-1 text-sm font-bold uppercase tracking-wider text-rose-600 dark:text-rose-500">

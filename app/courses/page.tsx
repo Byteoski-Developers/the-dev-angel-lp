@@ -58,7 +58,6 @@ export default function FullStackCourses() {
           />
         </div>
       </div>
-
       {/* hero sectiom */}
       {/* program creators */}
       <SectionHeader title="Program Creators" subtitle="" />

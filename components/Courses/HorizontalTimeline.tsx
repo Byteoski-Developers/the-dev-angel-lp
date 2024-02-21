@@ -68,7 +68,7 @@ const HorizontalTimeline: React.FC = () => {
 
         <div className="hidden sm:flex sm:w-full my-4">
           <ThemeProvider theme={theme}>
-            <Box sx={{ width: '100%' }}>
+            <Box sx={{ width: "100%" }}>
               <LinearProgress
                 value={width}
                 color="primary"
@@ -91,11 +91,9 @@ const HorizontalTimeline: React.FC = () => {
           </ThemeProvider>
         </div>
         <div className="flex flex-col justify-center items-center w-full">
-          {
-            curriculumData.map((item: ICurriculumData) => (
-              <CurriculumCard key={item.id} item={item} selected={selected} />
-            ))
-          }
+          {curriculumData.map((item: ICurriculumData) => (
+            <CurriculumCard key={item.id} item={item} selected={selected} />
+          ))}
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import { links } from "@/app/components/types";
+import { links } from "@/components/types";
 import Link from "next/link";
 export default function MobileMenu() {
   useEffect(() => {
