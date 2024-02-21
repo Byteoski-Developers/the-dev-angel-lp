@@ -4,7 +4,7 @@ const logos = [
   "/assets/images/Canvasvg.svg",
   "/assets/images/Nikesvg.svg",
   "/assets/images/Amazonsvg.svg",
-  "/assets/images/Coca-cola.svg",
+  "/assets/images/coca-cola.svg",
 
 ];
 const ProductBuilt = () => {
