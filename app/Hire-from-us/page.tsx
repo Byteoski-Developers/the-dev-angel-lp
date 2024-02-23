@@ -5,7 +5,7 @@ import CircularRating from "@/components/circularRating";
 export default function HirefromUs() {
   return (
     <div className="w-screen bg-white-500">
-      <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0 lg:px-0 lg:py-0 "></div>
+      {/* <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0 lg:px-0 lg:py-0 "></div> */}
       <div className="text-center ">
         <h2 className="mb-4 text-4xl font-black text-black dark:text-white">
           Hire Tech Talent That Delivers
