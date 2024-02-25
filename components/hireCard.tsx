@@ -5,6 +5,7 @@ interface MyProps {
   h1: string;
   h2: string;
   description: string;
+  image:string;
 }
 
 const HireCard: React.FC<MyProps> = (props) => {
@@ -19,6 +20,7 @@ const HireCard: React.FC<MyProps> = (props) => {
           <p className="text-sm font-poppins font-medium">
             {props.description}
           </p>
+          <img src={props.image} alt="Hire Card Image" />
           <div className="pl-4 sm:pl-6 lg:pl-8 mt-4">
             <span className="right-arrow"></span>
           </div>
