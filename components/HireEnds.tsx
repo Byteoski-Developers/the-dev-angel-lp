@@ -1,7 +1,7 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 
-export default function HireCard() {
+export default function hireCard() {
   return (
     <div className="flex w-full place-content-center">
       <div className="flex flex-col  w-full place-content-center ">
@@ -14,32 +14,32 @@ export default function HireCard() {
           </span>
         </p>
         {/* features of devangel  Starting*/}
-        <div className=" mt-10 bg-white-100 flex justify-evenly">
-          <div className="bg-orange-100 p-1 rounded-lg text-orange-500 font-thin ">
+        <div className=" mt-10 bg-white-100 flex items-center justify-center gap-5 " >
+          <div className=" w-72 bg-orange-100 p-1 rounded-lg text-orange-500 font-thin text-center">
             Hassle Free Hiring
           </div>
-          <div className="bg-orange-100 p-1 rounded-lg text-orange-500 font-thin ">
+          <div className=" w-72 bg-orange-100 p-1 rounded-lg text-orange-500 font-thin text-center">
             Pre-Assessed Candidates
           </div>
-          <div className="bg-orange-100 p-1 rounded-lg text-orange-500 font-thin">
+          <div className="w-72 bg-orange-100 p-1 rounded-lg text-orange-500 font-thin text-center">
             Dedicated Relationship Manager
           </div>
         </div>
         {/* Ending */}
 
         {/* facilities provided by DevAngel 1st row Starting */}
-        <div className="mt-10 bg-white-100 flex justify-evenly text-xl">
-          <div className="border-orange-400">
-            <span className="text-orange-500 font-bold">19000+</span>
-            <p className=" font-bold">Learners</p>
+        <div className="mt-9 bg-white-100 flex items-center justify-center gap-5 text-xl">
+          <div className="border-2  border-orange-500 flex-col items-center rounded-md ">
+            <div className="text-orange-500 font-bold text-center">19000+</div>
+            <div className=" font-bold  text-center">Learners</div>
           </div>
-          <div>
-            <span className="text-orange-500 font-bold">27+</span>
-            <p className=" font-bold">Hires</p>
+          <div className="border-2  border-orange-500 flex-col items-center rounded-md ">
+            <div className="text-orange-500 font-bold text-center">27+</div>
+            <div className=" font-bold">Hires</div>
           </div>
-          <div>
-            <span className="text-orange-500 font-bold">5+</span>
-            <p className=" font-bold">Domains</p>
+          <div className="border-2  border-orange-500 flex-col items-center rounded-md ">
+            <div className="text-orange-500 font-bold text-center">5+</div>
+            <div className=" font-bold">Domains</div>
           </div>
         </div>
         {/* 1st row ending  */}
@@ -47,18 +47,18 @@ export default function HireCard() {
 
         {/* 2nd row starting  */}
 
-        <div className="mt-10 bg-white-100 flex justify-evenly text-xl">
-          <div className="">
-            <span className="text-orange-500 font-bold">14+</span>
-            <p className=" font-bold">Cities</p>
+        <div className="mt-9 bg-white-100 flex items-center justify-center gap-5 text-xl">
+        <div className="border-2  border-orange-500 flex-col items-center rounded-md ">
+            <div className="text-orange-500 font-bold text-center">14+</div>
+            <div className=" font-bold">Cities</div>
           </div>
-          <div>
-            <span className="text-orange-500 font-bold">700+</span>
-            <p className=" font-bold">Companies</p>
+          <div className="border-2  border-orange-500 flex-col items-center rounded-md ">
+            <div className="text-orange-500 font-bold text-center">700+</div>
+            <div className=" font-bold">Companies</div>
           </div>
-          <div>
-            <span className="text-orange-500 font-bold">9+</span>
-            <p className=" font-bold">Industries</p>
+          <div className="border-2  border-orange-500 flex-col items-center rounded-md ">
+            <div className="text-orange-500 font-bold text-center">9+</div>
+            <div className=" font-bold">Industries</div>
           </div>
         </div>
 

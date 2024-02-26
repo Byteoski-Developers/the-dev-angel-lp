@@ -12,7 +12,7 @@ const Whydevangellearner = () => {
       h2: "Ready Candidates",
       description:
         "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
-      image: "/assets/images/undraw_experts.png",
+        image: "/assets/images/undraw_experts.png",
     },
     {
       h1: "Diverse",
@@ -26,6 +26,7 @@ const Whydevangellearner = () => {
       h2: "Global Experts",
       description:
         "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
+        image:"/assets/image/globe.png",
     },
     {
       h1: "Trusted",
@@ -59,15 +60,18 @@ const Whydevangellearner = () => {
                   : "flex-row-reverse md:ml-32 sm:mr-4"
               )}
             >
-              {/* <Image
-                src={""}
-                alt=""
+              <div className="image-container">
+                <Image
+                src={hirecardProps[index].image}
+                alt="....."
                 width={400}
                 height={70}
                 className="hidden sm:flex  max-w-[354px]"
-              ></Image> */}
+              ></Image> </div>
 
-              <HireCard key={index} {...props} />
+                
+
+              <HireCard key={index} {...props} /> 
 
               <div
                 className={classNames(

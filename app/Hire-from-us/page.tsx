@@ -1,5 +1,6 @@
 import HireEnds from "@/components/HireEnds";
 import PlacementHighlights from "@/components/Placementhighlights";
+import RightPosition from "@/components/RightPosition";
 import Whydevangel from "@/components/Whydevangel";
 import Whydevangellearner from "@/components/Whydevangellearner";
 import CircularRating from "@/components/circularRating";
@@ -114,11 +115,15 @@ export default function HirefromUs() {
         <PlacementHighlights/>
       </div>
 
+      <div className="mt-16">
+        <RightPosition/>
+      </div>
+
       <div className="bg-white dark:bg-gray-800 dark:text-gray-100 ">
         <div className="container mx-auto space-y-16 px-4 py-16  lg:px-8 lg:py-16 xl:max-w-7xl  ">
           {/* Heading */}
           <div className="text-center ">
-            <h2 className="mb-4 text-4xl font-black text-black dark:text-white">
+            <h2 className="mb-4 text-2xl font-black text-black dark:text-white">
               &lt;Companies Trust
               <span className="text-primaryOrange"> DevAngel </span>Learners
               &gt;

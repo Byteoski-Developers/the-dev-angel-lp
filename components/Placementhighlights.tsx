@@ -14,7 +14,7 @@ export default function PlacementHighlights() {
           </span>
         </p>
 
-        <div className=" mt-10 bg-white-100 flex justify-evenly">
+        <div className=" mt-10 bg-white-100 flex justify-center gap-28">
           <div className="bg-orange-100 p-1 rounded-lg">
             <span className="text-orange-500 font-bold">$100k LPA</span>
             <p className=" font-medium">Learners</p>
