@@ -53,7 +53,7 @@ const Whydevangellearner = () => {
             <div
               key={index}
               className={clsx(
-                "flex justify-center",
+                "flex justify-center items-center",
                 "my-2",
                 index % 2 === 0
                   ? "flex-row md:mr-32"
@@ -80,7 +80,7 @@ const Whydevangellearner = () => {
                     : "border-l border-l-1 border-l-black"
                 )}
               ></div>
-              <div className="w-[10px] h-[10px] rounded-full bg-orange-500"></div>
+              <div className="w-[10px] h-[10px] rounded-full bg-orange-500 relative top-16 left-1"></div>
             </div>
           ))}
           <div>
@@ -115,7 +115,7 @@ const Whydevangellearner = () => {
                   <img
                     src="/assets/images/undraw_powerful_re_frhr 1.png"
                     alt="Hire Card Iamge"
-                    className="w-40 h-40"
+                    className="w-40 h-40 l-0"
                   />
                 </div>
                 
