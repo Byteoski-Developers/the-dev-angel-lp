@@ -14,21 +14,21 @@ export default function PlacementHighlights() {
           </span>
         </p>
 
-        <div className=" mt-10 bg-white-100 flex justify-center gap-28">
-          <div className="bg-orange-100 p-1 rounded-lg">
-            <span className="text-orange-500 font-bold">$100k LPA</span>
-            <p className=" font-medium">Learners</p>
+        <div className=" mt-10 bg-white-100 flex justify-center gap-12">
+          <div className="bg-orange-50 p-1 flex flex-col item-center rounded-lg">
+            <span className="text-orange-500 font-bold text-center">$100k LPA</span>
+            <p className=" font-medium text-center">Highest Package</p>
           </div>
-          <div className="bg-orange-100 p-1 rounded-lg ">
-            <span className="text-orange-500 font-bold">$2000</span>
-            <p className=" font-medium">Highest Stipend</p>
+          <div className="bg-orange-50 p-1 flex flex-col rounded-lg item-center ">
+            <span className="text-orange-500 font-bold text-center">$2000</span>
+            <p className=" font-medium text-center">Highest Stipend</p>
           </div>
-          <div className="bg-orange-100 p-1 rounded-lg ">
-            <span className="text-orange-500 font-bold">302%</span>
+          <div className="bg-orange-50 p-1 flex flex-col rounded-lg item-center">
+            <span className="text-orange-500 font-bold text-center">302%</span>
             <p className=" font-medium">Highest Hike</p>
           </div>
-          <div className="bg-orange-100 p-1 rounded-lg ">
-            <span className="text-orange-500 font-bold">68%</span>
+          <div className="bg-orange-50 p-1 flex flex-col rounded-lg item-center">
+            <span className="text-orange-500 font-bold text-center">68%</span>
             <p className=" font-medium">Average Hike</p>
           </div>
         </div>

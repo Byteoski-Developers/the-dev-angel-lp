@@ -92,9 +92,9 @@ const Whydevangellearner = () => {
                   "linear-gradient(45deg, #ecf1e9 0%, #e5f98c 100%)",
               }}
             >
-              <div className="w-11/12  flex justify-end">
+              <div className="w-11/12 flex justify-end">
                 <div className="flex  justify-center w-1/2 mr-20 ">
-                  <div className="flex flex-col">
+                  <div className="mt-10">
                     <div className="text-xl font-semibold pb-2 font-poppins">
                       <span className="text-primaryOrange">Trusted {"  "}</span>
                       <span className="">By Industry Leaders</span>
@@ -105,23 +105,22 @@ const Whydevangellearner = () => {
                       all domains be it web, apps, devOps, product management,
                       indie Hacking etc."
                     </div>
+                    <div className="mt-10 flex justify-center items-center ">
+                  <button className="mb-10 flex justify-center items-center bg-orange-500 hover:bg-orange-600 text-white font-medium py-1 px-3 rounded">
+              <span className="ml-auto">Start Hiring</span>
+              <span className="text-xl font-thin">&gt;</span>
+            </button>
+                </div>
                   </div>
                   <img
                     src="/assets/images/undraw_powerful_re_frhr 1.png"
                     alt="Hire Card Iamge"
+                    className="w-40 h-40"
                   />
-                  <div className="pl-4 sm:pl-6 lg:pl-8 mt-4">
-                    <span className=""></span>
-                  </div>
                 </div>
+                
               </div>
             </div>
-          </div>
-          <div className="mt-10 flex justify-center items-center ">
-            <button className="flex justify-center items-center bg-orange-500 hover:bg-orange-600 text-white font-medium py-1 px-3 rounded">
-              <span className="mr-2">Start Hiring</span>
-              <span className="text-xl font-thin">&gt;</span>
-            </button>
           </div>
         </div>
       </div>

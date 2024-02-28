@@ -13,11 +13,11 @@ export default function RightPosition() {
       </div>
       <div className=" flex justify-center items-center  ">
         <div className="  mt-4 border-2  border-orange-500 flex items-center p-2 rounded-md">
-          <button className="flex justify-center items-center hover:bg-orange-600 text-black font-medium rounded mr-2 py-1 px-2">
+          <button className="flex justify-center items-center text-black hover:bg-orange-600 hover:text-white font-medium rounded mr-2 py-1 px-2">
             {" "}
             Web Development
           </button>
-          <button className="flex justify-center items-center hover:bg-orange-600 text-black font-medium rounded mr-2 py-1 px-2">
+          <button className="flex justify-center items-center hover:bg-orange-600 hover:text-white font-medium rounded mr-2 py-1 px-2">
             {" "}
             Data Analytics
           </button>

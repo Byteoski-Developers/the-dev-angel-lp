@@ -111,7 +111,7 @@ export default function HirefromUs() {
             <HireEnds/>
       </div>
 
-      <div className="mt-24">
+      <div className="mt-4">
         <PlacementHighlights/>
       </div>
 
