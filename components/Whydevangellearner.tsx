@@ -100,10 +100,10 @@ const Whydevangellearner = () => {
                       <span className="">By Industry Leaders</span>
                     </div>
                     <div className="text-sm font-poppins font-medium">
-                      "The DevAngel is started for supporting students / young
+                    &quot;The DevAngel is started for supporting students / young
                       Professionals to build their products, learn technology in
                       all domains be it web, apps, devOps, product management,
-                      indie Hacking etc."
+                      indie Hacking etc.&quot;
                     </div>
                     <div className="mt-10 flex justify-center items-center ">
                   <button className="mb-10 flex justify-center items-center bg-orange-500 hover:bg-orange-600 text-white font-medium py-1 px-3 rounded">
