@@ -1,9 +1,9 @@
 import HireEnds from "@/components/HireEnds";
 import PlacementHighlights from "@/components/Placementhighlights";
 import RightPosition from "@/components/RightPosition";
-import Whydevangel from "@/components/Whydevangel";
+
 import Whydevangellearner from "@/components/Whydevangellearner";
-import CircularRating from "@/components/circularRating";
+
 
 export default function HirefromUs() {
   return (
