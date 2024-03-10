@@ -1,0 +1,54 @@
+<svg
+                width="60px"
+                height="60px"
+                viewBox="0 0 24.00 24.00"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke=""
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="#CCCCCC"
+                  stroke-width="0.288"
+                >
+                  {" "}
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#FF5722"
+                    stroke-width="1.392"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></circle>{" "}
+                  <path
+                    d="M17 12H7M17 12L13 8M17 12L13 16"
+                    stroke="#FF5722"
+                    stroke-width="1.392"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>{" "}
+                </g>
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#FF5722"
+                    stroke-width="1.44"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></circle>{" "}
+                  <path
+                    d="M17 12H7M17 12L13 8M17 12L13 16"
+                    stroke="#FF5722"
+                    stroke-width="1.44"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>{" "}
+                </g>
+              </svg>
