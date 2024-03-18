@@ -27,6 +27,6 @@ export const links: navLinks = [
   },
   {
     title: "Hire From Us",
-    link: "Hire From Us",
+    link: "hire-from-us",
   },
 ];
