@@ -5,11 +5,12 @@ interface MyProps {
   h1: string;
   h2: string;
   description: string;
+  image:string;
 }
 
 const HireCard: React.FC<MyProps> = (props) => {
   return (
-    <div className=" from-primaryOrange to-secondaryYellow p-px lg:w-1/3 md:w-full ">
+    <div className="  p-px lg:w-1/3 md:w-full ">
       <div className="flex flex-col bg-white rounded-md">
         <div className="px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-xl font-semibold pb-2 font-poppins">
@@ -19,8 +20,9 @@ const HireCard: React.FC<MyProps> = (props) => {
           <p className="text-sm font-poppins font-medium">
             {props.description}
           </p>
+          {/* <img src={props.image} alt="Hire Card Image" /> */}
           <div className="pl-4 sm:pl-6 lg:pl-8 mt-4">
-            <span className="right-arrow"></span>
+            <span className=""></span>
           </div>
         </div>
       </div>
