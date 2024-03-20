@@ -2,7 +2,7 @@ export default function OurClientReviews() {
   return (
     <>
       {/* Our Teams Section: Simple */}
-      <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0 lg:px-0 lg:py-0 "></div>
+      <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0  lg:px-0 lg:py-0 m-10"></div>
       <div className="bg-white dark:bg-gray-800 dark:text-gray-100 ">
         <div className="container mx-auto space-y-16 px-4 py-16  lg:px-8 lg:py-16 xl:max-w-7xl  ">
           {/* Heading */}

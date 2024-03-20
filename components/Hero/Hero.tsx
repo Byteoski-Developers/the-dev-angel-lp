@@ -8,22 +8,30 @@ export default function Hero() {
           <div className="inline-flex px-4 py-1 mb-7 text-xs font-poppins rounded-xl text-primaryOrange bg-primaryOrangeLight object-cover leading-5 ">
             #1 BEST YOUNG SOFTWARE BUILDER HOUSE
           </div>
-          <h2 className="flex flex-col items-center mb-5 text-black font-bold font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl ">
-            <span className="flex p-5 line-clamp-1">Let’s Build Together</span>
-
-            <span className="flex p-2 text-primaryOrange ">New SAAS</span>
+          <h1 className="flex flex-col items-center mb-5 text-black font-bold font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl ">
+            <span className="flex p-5 line-clamp-1">The Dev Angel</span>
+          </h1>
+          <h2  className="flex flex-col items-center mb-5 text-black font-bold font-poppins text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl ">
+            <span className="flex p-2 text-primaryOrange ">
+              {/* Say Goodbye to Boring Clones and redundant projects, let’s build
+              SAAS that matters. */}
+              A skill school for today’s world
+            </span>
           </h2>
           <h2 className="mx-auto text-xl font-medium leading-relaxed text-gray-600 lg:w-3/4 xl:w-3/4 ">
-            The DevAngel is started for supporting students / young
+            {/* The DevAngel is started for supporting students / young
             Professionals to build their products, learn technology in all
             domains be it web, apps, devOps, product management, indie Hacking
-            etc.
+            etc. */}
+            {/* A skill school for today’s world */}
+            Say Goodbye to Boring Clones and redundant projects, let’s build SAAS that matters.
           </h2>
           <div className="py-10">
             <a
               href="#"
               className="inline-flex items-center justify-center gap-2 rounded-2xl border border-primaryOrange bg-primaryOrange px-8 py-3 font-semibold leading-6 text-white shadow-lg transition ease-in-out hover:-translate-y-1 delay-10 hover:scale-110 focus-ring focus:ring-orangered-100 focus:ring-opacity-50 active:border-orangered-100 active:bg-orangered-100 active:ring "
             >
+              
               <span>Start a new Project</span>
             </a>
           </div>

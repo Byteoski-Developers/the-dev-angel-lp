@@ -6,22 +6,22 @@ import Image from "next/image";
 const Whydevangel = () => {
   const cardProps = [
     {
-      h1: "It's",
-      h2: "Free",
+      h1: "Learns Skills",
+      h2: "That Matters",
       description:
-        "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
+      "The DevAngel empowers aspiring professionals with essential skills for today's tech landscape. From web development to product management, we cultivate expertise crucial for success in diverse domains."
     },
     {
-      h1: "Best",
-      h2: "Team",
+      h1: "Break Out of ",
+      h2: "Tutorial Hell",
       description:
-        "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
-    },
+     " At The DevAngel, we guide you to break out of tutorial hell and embark on practical learning journeys. Our hands-on approach equips you with the skills to confidently tackle real-world challenges in tech and beyond."
+        },
     {
-      h1: "24/7",
-      h2: "Support",
+      h1: "Personalised",
+      h2: "Mentorship",
       description:
-        "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
+      "The DevAngel offers personalized mentorship, providing tailored guidance and support to individuals seeking to navigate their career paths and excel in the ever-evolving tech field."
     },
   ];
   return (

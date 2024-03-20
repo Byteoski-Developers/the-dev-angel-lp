@@ -9,9 +9,9 @@ interface MyProps {
 
 const Card: React.FC<MyProps> = (props) => {
   return (
-    <div className="bg-gradient-to-b from-primaryOrange to-secondaryYellow p-px lg:w-1/3 md:w-full rounded-md shadow-lg shadow-vermilion-500/10">
+    <div className="  p-px lg:w-1/3 md:w-1/3  xl:w-1/3 rounded-md shadow-md md:shadow-md lg:shadow-lg sm:shadow-md shadow-vermilion-500/10">
       <div className="flex flex-col bg-white rounded-md">
-        <div className="px-4 sm:px-6 lg:px-8 py-6">
+        <div className="px-4 sm:px-6 lg:px-8 pt-6">
           <p className="text-xl font-semibold pb-2 font-poppins">
             <span>{props.h1}</span>&nbsp;
             <span className="text-primaryOrange">{props.h2}</span>
