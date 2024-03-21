@@ -2,11 +2,11 @@
 import { usePathname } from "next/navigation";
 
 const MenuItems = [
-  { label: "Frontend", url: "/courses/frontend" },
-  { label: "Backend", url: "/courses/backend" },
-  { label: "Database", url: "/courses/database" },
-  { label: "FullStack", url: "/courses" },
-  { label: "UI/UX", url: "/courses/uiux" },
+  // { label: "Frontend", url: "/courses/frontend" },
+  // { label: "Backend", url: "/courses/backend" },
+  // { label: "Database", url: "/courses/database" },
+  { label: "FullStack", url: "/courses/fullstack" },
+  // { label: "UI/UX", url: "/courses/uiux" },
 ];
 
 export default function CourseMenu() {
@@ -19,11 +19,12 @@ export default function CourseMenu() {
           {MenuItems.map((menuItem, index) => (
             <a key={index} href={menuItem.url}>
               <span
-                className={`border-r ${
-                  menuItem.url === pathname
-                    ? "text-primaryOrange font-bold"
-                    : ""
-                } md:pr-5 pr-2 md:mr-4 mr-2 border-black cursor-pointer`}
+                // className={`border-r ${
+                //   menuItem.url === pathname
+                //     ? "text-primaryOrange font-bold"
+                //     : ""
+                // } md:pr-5 pr-2 md:mr-4 mr-2 border-black cursor-pointer`}
+                className="text-primaryOrange font-bold"
               >
                 {menuItem.label}
               </span>
