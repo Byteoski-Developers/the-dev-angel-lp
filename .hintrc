@@ -20,6 +20,7 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }

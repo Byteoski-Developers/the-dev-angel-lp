@@ -9,18 +9,18 @@ import CourseCurriculum from "@/components/Courses/CourseCurriculum";
 const creators = [
   {
     name: "Anubhav Gupta",
-    year: "20",
-    img: "gautam",
+    year: "3",
+    img: "anubhav",
   },
   {
     name: "Gautam Singla",
-    year: "20",
-    img: "anubhav",
+    year: "2",
+    img: "gautam",
   },
   {
-    name: "Tushar Gupta",
-    year: "20",
-    img: "anubhav",
+    name: "Nishant Chandel",
+    year: "2",
+    img: "nishant",
   },
 ];
 
@@ -61,9 +61,9 @@ export default function FullStackCourses() {
                 <p className="  line-through md:text-lg text-lg font-bold leading-relaxed">
                   ₹10,999
                 </p>
-                <p className="  md:text-lg text-lg font-semibold leading-relaxed">
+                {/* <p className="  md:text-lg text-lg font-semibold leading-relaxed">
                   45%off
-                </p>
+                </p> */}
               </div>
             </h2>
           </div>

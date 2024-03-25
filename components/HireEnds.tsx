@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 
 export default function hireCard() {
   return (
-    <div className="flex w-full place-content-center">
+    <div className="flex w-screen place-content-center">
       <div className="flex flex-col  w-full place-content-center ">
         <p className="flex place-content-center font-bold font-poppins text-2xl">
           <span>{"<"} Your Talent Hunt</span>

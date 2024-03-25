@@ -74,7 +74,7 @@ export default function OurClientReviews() {
           </div> */}
 
           {/* <div className=" grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3"> */}
-          <div className="max-w-5xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6 sm:grid-cols-1 justify-center ">
+          <div className="max-w-5xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6 sm:grid-cols-1 justify-center  sm:justify-center">
             {/* 1st Component */}
             <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105">
               <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
