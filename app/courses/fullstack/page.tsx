@@ -10,7 +10,7 @@ const creators = [
   {
     name: "Anubhav Gupta",
     year: "3",
-    img: "anubhav",
+    img: "gautam",
   },
   {
     name: "Gautam Singla",
