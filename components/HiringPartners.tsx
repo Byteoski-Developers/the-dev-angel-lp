@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FastMarquee from "react-fast-marquee";
 
 const logos = [
   "/assets/images/Canvasvg.svg",
@@ -20,10 +21,12 @@ const ProductBuilt = () => {
             Your One Stop Destination for Success
           </h3>
         </div>
+      </div>
 
-        <div className="flex items-center justify-center px-6 md:px-10 lg:px-0 xl:px-20 2xl:px-40 py-6 md:py-10  ">
-          {/* <div className="  w-full h-auto rounded-lg bg-gradient-to-b from-orange-600 to-amber-400 p-1  "> */}
-          <div className="  w-full h-auto rounded-lg p-1  ">
+      {/* <div className="flex items-center justify-center px-6 md:px-10 lg:px-0 xl:px-20 2xl:px-40 py-6 md:py-6  "> */}
+      <div>
+        {/* <div className="  w-full h-auto rounded-lg bg-gradient-to-b from-orange-600 to-amber-400 p-1  "> */}
+        {/* <div className="  w-full h-auto rounded-lg p-1  ">
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-full bg-white p-16 ">
               {logos.map((logo, index) => (
                 <Image
@@ -35,9 +38,35 @@ const ProductBuilt = () => {
                 />
               ))}
             </div>
-          </div>
+          </div> */}
+
+        <div>
+          <FastMarquee
+            className="bg-white"
+            pauseOnHover
+            autoFill={true}
+            speed={50}
+            gradient={true}
+            //   gradientWidth="md:w-50 lg:w-150"
+            gradientWidth={100}
+          >
+            <div className="  w-full h-auto rounded-lg p-1  ">
+              <div className=" grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-10 w-full bg-white p-16 ">
+                {logos.map((logo, index) => (
+                  <Image
+                    height={100}
+                    width={100}
+                    key={index}
+                    src={logo}
+                    alt="logoimage"
+                  />
+                ))}
+              </div>
+            </div>
+          </FastMarquee>
         </div>
       </div>
+      {/* </div> */}
       {/* <div className=" border-b-8 w-full ml-0 mr-0 px-0 py-4 lg:px-0 lg:py-8 bg-gradient-to-b from-[#FF5722] to-[#FFC10752]"></div> */}
     </>
   );

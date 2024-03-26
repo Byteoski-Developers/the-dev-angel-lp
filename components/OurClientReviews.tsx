@@ -1,8 +1,9 @@
 export default function OurClientReviews() {
+
   return (
     <>
       {/* Our Teams Section: Simple */}
-      <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0  lg:px-0 lg:py-0 m-10"></div>
+      <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0  lg:px-0 lg:py-0 m-10 sm:justify-center"></div>
       <div className="bg-white dark:bg-gray-800 dark:text-gray-100 ">
         <div className="container mx-auto space-y-16 px-4 py-16  lg:px-8 lg:py-16 xl:max-w-7xl  ">
           {/* Heading */}
@@ -16,9 +17,126 @@ export default function OurClientReviews() {
             </h3>
           </div>
 
-          {/* Heading End */}
+          {/* <div className=" grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3"> */}
+          <div className="max-w-5xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6 sm:grid-cols-2 sm:gap-8 justify-center  sm:justify-center">
+            {/* 1st Component */}
+            <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105 sm:justify-center">
+              <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
+                <div className="flex-col justify-start items-center gap-3 flex">
+                  <div className="flex-col justify-start items-center gap-0.5 flex">
+                    <div className="text-black text-xl font-semibold font-['Poppins'] leading-normal">
+                      Sophia White
+                    </div>
+                    <div className="text-black text-base font-medium font-['Poppins'] leading-normal">
+                      Asistant Backend Developer
+                    </div>
+                  </div>
+                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore{" "}
+                  </div>
+                  {/* Star rating start */}
+                  <div className="flex gap-[1px] text-yellow500">
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/GreyStar.svg" alt="cvf" />
+                  </div>
+                  {/* Star rating end  */}
+                </div>
+                <div className="justify-start items-start gap-2 inline-flex"></div>
+              </div>
+              <img
+                className="w-[120px] h-[120px] justify-center absolute rounded-full border-8 border-white mb-0 ml-[100px] bottom-[220px] "
+                src="\assets\images\sophiaWhitereview.png"
+                alt="Reviewer's Image"
+              />
+            </div>
 
-          {/* <div className="grid grid-cols-3 gap-3 justify-center">
+            {/* 2nd Component */}
+            <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105">
+              <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
+                <div className="flex-col justify-start items-center gap-3 flex">
+                  <div className="flex-col justify-start items-center gap-0.5 flex">
+                    <div className="text-black text-xl font-semibold font-['Poppins'] leading-normal">
+                      Alex
+                    </div>
+                    <div className="text-black text-base font-medium font-['Poppins'] leading-normal">
+                      Asistant Backend Developer
+                    </div>
+                  </div>
+                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore{" "}
+                  </div>
+                  {/* Star rating start */}
+                  <div className="flex gap-[1px] text-yellow500">
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/GreyStar.svg" alt="cvf" />
+                  </div>
+                  {/* Star rating end  */}
+                </div>
+                <div className="justify-start items-start gap-2 inline-flex"></div>
+              </div>
+              <img
+                // className="w-16 h-16 left-[126px] top-0 absolute rounded-full border-8 border-white"
+                className="w-[120px] h-[120px] justify-center absolute rounded-full border-8 border-white mb-0 ml-[100px] bottom-[220px] "
+                src="\assets\images\AlexReview.png"
+                alt="Reviewer's Page"
+              />
+            </div>
+
+            {/* 3rd Component  */}
+            <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105">
+              <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
+                <div className="flex-col justify-start items-center gap-3 flex">
+                  <div className="flex-col justify-start items-center gap-0.5 flex">
+                    <div className="text-black text-xl font-semibold font-['Poppins'] leading-normal">
+                      Zakar{" "}
+                    </div>
+                    <div className="text-black text-base font-medium font-['Poppins'] leading-normal">
+                      Asistant Backend Developer
+                    </div>
+                  </div>
+                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore{" "}
+                  </div>
+                  {/* Star rating start */}
+                  <div className="flex gap-[1px] text-yellow500">
+                    <img src={"/YellowStar.svg"} alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/YellowStar.svg" alt="cvf" />
+                    <img src="/GreyStar.svg" alt="cvf" />
+                  </div>
+                  {/* Star rating end  */}
+                </div>
+                <div className="justify-start items-start gap-2 inline-flex"></div>
+              </div>
+              <img
+                // className="w-16 h-16 left-[126px] top-0 absolute rounded-full border-8 border-white"
+                className="w-[120px] h-[120px] justify-center absolute rounded-full border-8 border-white mb-0 ml-[100px] bottom-[220px] "
+                src="\assets\images\zakarreview.png"
+                alt="Reviewer's Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+{
+  /* Heading End */
+}
+
+{
+  /* <div className="grid grid-cols-3 gap-3 justify-center">
             <div className="bg-white border rounded-lg p-6">
               <img
                 className="w-24 h-24 rounded-full mx-auto"
@@ -71,119 +189,5 @@ export default function OurClientReviews() {
                 </svg>
               </div>
             </div>
-          </div> */}
-
-          {/* <div className=" grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3"> */}
-          <div className="max-w-5xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6 sm:grid-cols-1 justify-center  sm:justify-center">
-            {/* 1st Component */}
-            <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105">
-              <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
-                <div className="flex-col justify-start items-center gap-3 flex">
-                  <div className="flex-col justify-start items-center gap-0.5 flex">
-                    <div className="text-black text-xl font-semibold font-['Poppins'] leading-normal">
-                      Sophia White
-                    </div>
-                    <div className="text-black text-base font-medium font-['Poppins'] leading-normal">
-                      Asistant Backend Developer
-                    </div>
-                  </div>
-                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{" "}
-                  </div>
-                  {/* Star rating start */}
-                  <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/GreyStar.svg" alt ="cvf" />
-                  </div>
-                  {/* Star rating end  */}
-                </div>
-                <div className="justify-start items-start gap-2 inline-flex"></div>
-              </div>
-              <img
-                className="w-[120px] h-[120px] justify-center absolute rounded-full border-8 border-white mb-0 ml-[100px] bottom-[220px] "
-                src="\assets\images\sophiaWhitereview.png"
-                alt="Reviewer's Image"
-              />
-            </div>
-
-            {/* 2nd Component */}
-            <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105">
-              <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
-                <div className="flex-col justify-start items-center gap-3 flex">
-                  <div className="flex-col justify-start items-center gap-0.5 flex">
-                    <div className="text-black text-xl font-semibold font-['Poppins'] leading-normal">
-                      Alex
-                    </div>
-                    <div className="text-black text-base font-medium font-['Poppins'] leading-normal">
-                      Asistant Backend Developer
-                    </div>
-                  </div>
-                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{" "}
-                  </div>
-                  {/* Star rating start */}
-                  <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/GreyStar.svg" alt ="cvf" />
-                  </div>
-                  {/* Star rating end  */}
-                </div>
-                <div className="justify-start items-start gap-2 inline-flex"></div>
-              </div>
-              <img
-                // className="w-16 h-16 left-[126px] top-0 absolute rounded-full border-8 border-white"
-                className="w-[120px] h-[120px] justify-center absolute rounded-full border-8 border-white mb-0 ml-[100px] bottom-[220px] "
-                src="\assets\images\AlexReview.png"
-                alt="Reviewer's Page"
-              />
-            </div>
-
-            {/* 3rd Component  */}
-            <div className="w-[316px] h-[298px] relative z-20 hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-105">
-              <div className="w-[316px] h-[254px] px-[25px] py-10 left-0 top-[44px] absolute bg-yellow-400 bg-opacity-10 rounded-xl shadow flex-col justify-start items-center gap-[18px] inline-flex">
-                <div className="flex-col justify-start items-center gap-3 flex">
-                  <div className="flex-col justify-start items-center gap-0.5 flex">
-                    <div className="text-black text-xl font-semibold font-['Poppins'] leading-normal">
-                      Zakar{" "}
-                    </div>
-                    <div className="text-black text-base font-medium font-['Poppins'] leading-normal">
-                      Asistant Backend Developer
-                    </div>
-                  </div>
-                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{" "}
-                  </div>
-                  {/* Star rating start */}
-                  <div className="flex gap-[1px] text-yellow500">
-                    <img src = {"/YellowStar.svg"} alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/GreyStar.svg" alt ="cvf" />
-                  </div>
-                  {/* Star rating end  */}
-                </div>
-                <div className="justify-start items-start gap-2 inline-flex"></div>
-              </div>
-              <img
-                // className="w-16 h-16 left-[126px] top-0 absolute rounded-full border-8 border-white"
-                className="w-[120px] h-[120px] justify-center absolute rounded-full border-8 border-white mb-0 ml-[100px] bottom-[220px] "
-                src="\assets\images\zakarreview.png"
-                alt="Reviewer's Image"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+          </div> */
 }

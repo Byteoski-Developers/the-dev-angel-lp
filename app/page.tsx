@@ -21,6 +21,7 @@ export default function landingPage() {
       <Marque />
       <Whydevangel />
       <OurClientReviews />
+      {/* <OurTeam/> */}
       <OurTeams />
       <OurCourses />
       <HiringPartners />

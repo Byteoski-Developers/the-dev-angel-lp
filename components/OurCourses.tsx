@@ -31,10 +31,10 @@ export default function OurCourses() {
                 <div className="font-bold text-xl mb-2">UI/UX</div>
                 <ul className="list-disc list-inside">
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Elevate user engagement through compelling UI/UX.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Craft seamless experiences, design intuitive interfaces.
                   </li>
                 </ul>
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
@@ -74,10 +74,10 @@ export default function OurCourses() {
                   quis incidunt veritatis! */}
                 <ul className="list-disc list-inside">
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Unlock coding mastery: Learn, create, innovate.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Empower yourself with the language of technology.
                   </li>
                 </ul>
 
@@ -109,10 +109,10 @@ export default function OurCourses() {
 
                 <ul className="list-disc list-inside">
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Shape digital experiences with our Frontend Mastery.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Master HTML, CSS, JavaScript, and beyond.
                   </li>
                 </ul>
 
@@ -147,10 +147,10 @@ export default function OurCourses() {
 
                 <ul className="list-disc list-inside">
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Unleash the power of backend wizardry.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Dive deep into advanced server-side technologies.
                   </li>
                 </ul>
 
@@ -182,10 +182,10 @@ export default function OurCourses() {
 
                 <ul className="list-disc list-inside">
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Refine your skills in efficient data management.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Unlock the secrets of efficient database design.
                   </li>
                 </ul>
 
@@ -220,10 +220,10 @@ export default function OurCourses() {
 
                 <ul className="list-disc list-inside">
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lead innovation with strategic product management expertise.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Drive success through insightful market analysis.
                   </li>
                 </ul>
 

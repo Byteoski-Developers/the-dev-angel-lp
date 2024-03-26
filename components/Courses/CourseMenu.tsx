@@ -1,4 +1,5 @@
 "use client";
+import FullStackCourses from "@/app/courses/fullstack/page";
 import { usePathname } from "next/navigation";
 
 const MenuItems = [
