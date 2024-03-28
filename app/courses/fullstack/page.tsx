@@ -3,7 +3,7 @@ import Button from "@/components/common/Button";
 import Image from "next/image";
 import CreatorMenu from "@/components/Courses/CreatorMenu";
 import CreatorCard from "@/components/Courses/CreatorCard";
-import ContactCTA from "@/components/common/ContactCTA";
+// import ContactCTA from "@/components/common/ContactCTA";
 import CourseCurriculum from "@/components/Courses/CourseCurriculum";
 
 const creators = [

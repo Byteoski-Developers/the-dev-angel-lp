@@ -10,9 +10,9 @@ import HiringPartners from "@/components/HiringPartners";
 import OurCourses from "@/components/OurCourses";
 import OurTeams from "@/components/OurTeams";
 import OurClientReviews from "@/components/OurClientReviews";
-import OurTeam from "@/components/OurTeam";
-import ProductBuilt from "@/components/HiringPartners";
-import RightPosition from "@/components/RightPosition";
+// import OurTeam from "@/components/OurTeam";
+// import ProductBuilt from "@/components/HiringPartners";
+// import RightPosition from "@/components/RightPosition";
 
 export default function landingPage() {
   return (

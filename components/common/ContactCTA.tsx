@@ -28,7 +28,7 @@ export default function ContactCTA() {
               height={24}
               alt="converstation"
             />
-            Let's Chat
+            Let&#39;s Chat
           </button>
         </div>
       </div>

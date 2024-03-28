@@ -1,6 +1,6 @@
 import Image from "next/image";
 import FastMarquee from "react-fast-marquee";
-import star from "../../public/assets/images/softStars.svg";
+// import star from "../../public/assets/images/softStars.svg";
 
 const logos = [
   "/assets/images/Canvasvg.svg",

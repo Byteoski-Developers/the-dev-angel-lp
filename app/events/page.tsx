@@ -50,7 +50,7 @@ export default function Events() {
         <div className="max-w-6xl mx-auto flex space-x-4 ">
           {/* First card */}
           <div className="rounded overflow-hidden shadow-lg max-w-sm ">
-            <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
+            <Image src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Event Title-1</div>
               <p>
@@ -77,7 +77,7 @@ export default function Events() {
 
           {/* Second card */}
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
-            <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
+            <Image src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Event Title-2</div>
               <p>
@@ -104,7 +104,7 @@ export default function Events() {
 
           {/* Third card */}
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
-            <img src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
+            <Image src="\assets\images\imagecard2.jpeg" alt="imagecard2" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Event Title-3</div>
               <p>
