@@ -25,7 +25,7 @@ const Whydevangel = () => {
     },
   ];
   return (
-    <div className="flex w-full place-content-center">
+    <div className="flex w-full place-content-center max-w-fit mx-auto">
       <div className="flex flex-col  w-full place-content-center ">
         <p className="flex place-content-center font-bold font-poppins text-xl">
           <span>{"<"} Why </span>

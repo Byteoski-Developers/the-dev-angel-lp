@@ -33,24 +33,38 @@ const HorizontalTimeline: React.FC = () => {
     setWidth(value);
     return index;
   }
+
   function calculateValue(index: number) {
-    // Calculate the total number of parts (5 in this case)
-    const totalParts = 5;
+    // Define the percentages each component should cover
+    const percentages = [20, 40, 60, 80, 100];
 
-    // Calculate the width of each part
-    const partWidth = (childRef.current?.offsetWidth ?? 0) / totalParts;
+    // Calculate the value for the given index based on the percentages
+    let value = percentages[index ]; // Subtract 1 because index starts from 1
 
-    // Calculate the value for the given index
-    let value = (index * partWidth) + (partWidth / 2);
-    value= value*2;
-
-    // Normalize the value relative to the width of the parent element
-    value /= parentRef.current?.offsetWidth ?? 1;
-
-    // Convert the normalized value to a percentage and subtract 1
-    return (value * 100) - 1;
+    // Convert the value to a percentage and subtract 1
+    return value ;
 }
 
+
+
+
+  // function calculateValue(index: number) {
+  //   // Calculate the total number of parts (5 in this case)
+  //   const totalParts = 5;
+
+  //   // Calculate the width of each part
+  //   const partWidth = (childRef.current?.offsetWidth ?? 0) / totalParts;
+
+  //   // Calculate the value for the given index
+  //   let value = index * partWidth + partWidth / 2;
+  //   value = value * 2;
+
+  //   // Normalize the value relative to the width of the parent element
+  //   value /= parentRef.current?.offsetWidth ?? 1;
+
+  //   // Convert the normalized value to a percentage and subtract 1
+  //   return value * 100 - 1;
+  // }
 
   // function calculateValue(index: number) {
   //   let extra =
@@ -60,14 +74,14 @@ const HorizontalTimeline: React.FC = () => {
   //   let value = (2 * index + 1) * ((childRef.current?.offsetWidth ?? 0) / 12);
   //   value += extra;
   //   value /= parentRef.current?.offsetWidth ?? 1;
-  //   return value * 100 - 1;
+  //   return value * 100 +20;
   // }
 
   return (
     <div className="flex flex-col sm:w-full md:w-full lg:w-full justify-center items-center">
       <div
         ref={parentRef}
-        className="w-[100vw] flex flex-col justify-center items-center"
+        className=" flex flex-col justify-center items-center"
       >
         <div
           ref={childRef}
@@ -84,7 +98,7 @@ const HorizontalTimeline: React.FC = () => {
           ))}
         </div>
 
-        <div className="hidden sm:flex sm:w-full my-4">
+        <div className="hidden sm:flex sm:w-full my-4 xl:max-w-7xl">
           <ThemeProvider theme={theme}>
             <Box sx={{ width: "100%" }}>
               <LinearProgress

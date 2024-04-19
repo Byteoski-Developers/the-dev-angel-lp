@@ -38,9 +38,9 @@ export default function FullStackCourses() {
               {/* <span className="my-3 block">Training Software</span> */}
               {/* <span>Development</span> */}
             </h1>
-            <h2 className="md:text-3xl text-3xl font-semibold leading-relaxed">
+            <h2 className="md:text-3xl text-2xl font-semibold leading-relaxed ">
               <span>Starting: </span>
-              <span className="text-primaryOrange">
+              <span className="text-primaryOrange ">
                 4<sup>th</sup> June, 2024
               </span>
             </h2>
@@ -70,7 +70,7 @@ export default function FullStackCourses() {
           <div className="flex gap-6">
             {/* <Button text="Download Curriculum" filled={false} /> */}
             <Button text="Register Now" filled={true} />{" "}
-            <div className="rounded-lg pr-4  md:px-4 py-2 md:py-3 text-sm sm:text-base font-semibold transition">
+            <div className="rounded-lg pr-4  md:px-4 py-2 md:py-3 text-sm sm:text-base font-semibold transition ">
               Duration : 3 Months
             </div>
           </div>

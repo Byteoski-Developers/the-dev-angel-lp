@@ -11,7 +11,7 @@ export const links: navLinks = [
   },
   {
     title: "Courses",
-    link: "courses",
+    link: "courses/fullstack",
   },
   {
     title: "About",
@@ -21,11 +21,11 @@ export const links: navLinks = [
     title: "Contact Us",
     link: "contact-us",
   },
+  // {
+  //   title: "Events",
+  //   link: "events",
+  // },
   {
-    title: "Events",
-    link: "events",
-  },
-  { 
     title: "Hire From Us",
     link: "hire-from-us",
   },

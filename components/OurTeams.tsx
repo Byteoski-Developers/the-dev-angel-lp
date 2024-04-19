@@ -3,9 +3,9 @@ export default function OurTeams() {
     <>
       {/* Our Teams Section: Simple */}
 
-      <div className="">
+        <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0 lg:px-0 lg:py-0 overflow-hidden  "/>
+      <div className="mx-auto max-w-7xl">
         {/* Member Card Start */}
-        <div className="border-t-2 border-primaryOrange w-full ml-0 mr-0 px-0 py-0 lg:px-0 lg:py-0 overflow-hidden  "></div>
         {/* <div className="bg-white  dark:bg-gray-800 dark:text-gray-100 bg-gradient-to-t from-[rgba(255,193,7,0.32)] via-slate-100 via-slate-50 to-white"> */}
         <div className="bg-white  dark:bg-gray-800 dark:text-gray-100 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-[rgba(255,193,7,0.12)] via-white  to-white grid lg:grid-cols-5 sm:grid-cols-2 md:grid-cols-1 ">
           <div className="container mx-auto space-y-16 lg:ml-32 py-16  lg:px-8 lg:py-16 xl:max-w-7xl  col-span-4">

@@ -9,7 +9,7 @@ export default function CourseLayout({
 }) {
   return (
     <>
-      <div className="my-12 view-container">
+      <div className="my-12 view-container xl:max-w-7xl mx-auto">
         {/* header */}
         <div className="flex flex-col gap-2">
           <CourseMenu />

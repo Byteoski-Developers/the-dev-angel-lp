@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <>
       {/* Hero Section: Subtle Gradient Box */}
-      <div className="relative overflow-hidden min-screen-full bg-white max-h-screen ">
+      <div className="relative overflow-hidden min-screen-full bg-white max-h-screen  xl:max-w-7xl mx-auto">
         {/* Hero Content */}
         <div className="justify-center items-center text-center mx-30 py-10 bg-white  ">
           <div className="inline-flex px-4 py-1 mb-7 text-xs font-poppins rounded-xl text-primaryOrange bg-primaryOrangeLight object-cover leading-5 ">
