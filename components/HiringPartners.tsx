@@ -16,22 +16,23 @@ const ProductBuilt = () => {
             &lt; Our <span className="text-primaryOrange">Hiring Partners</span>{" "}
             &gt;
           </h2>
-          <h3 className="text-gray-500 font-medium text-base md:text-xl leading-6 md:leading-9 h-9 w-full">
+          <h3 className="text-[#B5B5B5] font-medium text-base md:text-xl leading-6 md:leading-9 h-9 w-full">
             Your One Stop Destination for Success
           </h3>
         </div>
 
-        <div className="flex items-center justify-center px-6 md:px-10 lg:px-0 xl:px-20 2xl:px-40 py-6 md:py-10  ">
+        <div className="flex items-center justify-center mt-10">
           {/* <div className="  w-full h-auto rounded-lg bg-gradient-to-b from-orange-600 to-amber-400 p-1  "> */}
-          <div className="  w-full h-auto rounded-lg p-1  ">
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-full bg-white p-16 ">
+          <div className="  w-full h-auto rounded-lg items-center">
+            <div className=" grid grid-cols-1 md:grid-cols-2 p-16 lg:grid-cols-4 bg-white justify-center items-center">
               {logos.map((logo, index) => (
                 <Image
-                  height={100}
-                  width={100}
+                  height={200}
+                  width={200}
                   key={index}
                   src={logo}
                   alt="logoimage"
+                  className="ms-10 sm:mt-6 mt-0"
                 />
               ))}
             </div>

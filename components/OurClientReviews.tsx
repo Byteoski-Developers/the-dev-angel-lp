@@ -7,13 +7,13 @@ export default function OurClientReviews() {
         <div className="container mx-auto space-y-16 px-4 py-16  lg:px-8 lg:py-16 xl:max-w-7xl  ">
           {/* Heading */}
           <div className="text-center ">
+            <h3 className="mx-auto text-xl font-medium leading-relaxed lg:w-2/3 mb-2">
+              Testimonials
+            </h3>
             <h2 className="mb-4 text-4xl font-black text-black dark:text-white">
               &lt;Our
               <span className="text-primaryOrange"> Client Reviews </span> &gt;
             </h2>
-            <h3 className="mx-auto text-xl font-medium leading-relaxed text-[#B5B5B5] lg:w-2/3 dark:text-gray-300">
-              Your One Stop Destination for Success
-            </h3>
           </div>
 
           {/* Heading End */}
@@ -87,16 +87,16 @@ export default function OurClientReviews() {
                       Asistant Backend Developer
                     </div>
                   </div>
-                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
+                  <div className="w-[266px] leading-7 text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore{" "}
                   </div>
                   {/* Star rating start */}
                   <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
                     <img src = "/GreyStar.svg" alt ="cvf" />
                   </div>
                   {/* Star rating end  */}
@@ -122,16 +122,16 @@ export default function OurClientReviews() {
                       Asistant Backend Developer
                     </div>
                   </div>
-                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
+                  <div className="w-[266px] leading-7 text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore{" "}
                   </div>
                   {/* Star rating start */}
                   <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
                     <img src = "/GreyStar.svg" alt ="cvf" />
                   </div>
                   {/* Star rating end  */}
@@ -158,16 +158,16 @@ export default function OurClientReviews() {
                       Asistant Backend Developer
                     </div>
                   </div>
-                  <div className="w-[266px] text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
+                  <div className="w-[266px] leading-7 text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore{" "}
                   </div>
                   {/* Star rating start */}
                   <div className="flex gap-[1px] text-yellow500">
-                    <img src = {"/YellowStar.svg"} alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
-                    <img src = "/YellowStar.svg" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
+                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
                     <img src = "/GreyStar.svg" alt ="cvf" />
                   </div>
                   {/* Star rating end  */}
