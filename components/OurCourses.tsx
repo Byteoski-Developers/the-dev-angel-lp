@@ -13,7 +13,7 @@ export default function OurCourses() {
               We reply in 24hrs
             </div> */}
             <h2 className="mb-4 text-4xl font-black text-black dark:text-white">
-              &lt;Our<span className="text-primaryOrange"> Courses </span> &gt;
+              &lt;Explore <span className="text-primaryOrange">Our Courses </span> &gt;
             </h2>
             <h3 className="mx-auto text-xl font-medium leading-relaxed text-[#B5B5B5] lg:w-2/3 dark:text-gray-300">
               Your One Stop Destination for Success

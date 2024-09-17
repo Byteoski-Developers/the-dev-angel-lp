@@ -10,7 +10,7 @@ export default function OurTeams() {
         <div className="bg-white  dark:bg-gray-800 dark:text-gray-100 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-[rgba(255,193,7,0.12)] via-white  to-white grid lg:grid-cols-5 sm:grid-cols-2 md:grid-cols-1 ">
           <div className="container mx-auto space-y-16 ml-32 py-16  lg:px-8 lg:py-16 xl:max-w-7xl  col-span-4">
             {/* Heading */}
-            <div className="text-center ">
+            <div className="text-center">
               <h2 className="mb-4 text-4xl font-black text-black dark:text-white">
                 &lt;Our<span className="text-primaryOrange"> Team ! </span> &gt;
               </h2>

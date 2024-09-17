@@ -25,7 +25,7 @@ const Whydevangel = () => {
     },
   ];
   return (
-    <div className="flex w-full place-content-center">
+    <div className="flex w-full place-content-center mb-6">
       <div className="flex flex-col  w-full place-content-center ">
         <p className="flex place-content-center font-bold font-poppins text-xl">
           <span>{"<"} Why </span>
@@ -35,13 +35,14 @@ const Whydevangel = () => {
         <p className="flex text-grey font-medium place-content-center font-poppins text-base ">
           Your One Stop Destination for Success
         </p>
-        <div className="mt-10  justify-center ">
+        <div className="mt-10  justify-center mx-auto">
           {cardProps.map((props, index) => (
             <div
               key={index}
               className={clsx(
                 "flex justify-center",
                 "my-2",
+                "w-full sm:max-w-5xl",
                 index % 2 === 0
                   ? "flex-row md:mr-32"
                   : "flex-row-reverse md:ml-32 sm:mr-4",
@@ -50,11 +51,11 @@ const Whydevangel = () => {
               <Card key={index} {...props} />
               {index % 2 != 0 ? (
                 <Image
-                  src={"/assets/images/photo.png"}
+                  src={"/assets/images/bgphoto.png"}
                   alt="whydevangel"
                   width={400}
                   height={70}
-                  className="hidden sm:flex  max-w-[354px]"
+                  className="hidden sm:flex me-32 max-w-[354px]"
                 ></Image>
               ) : index % 4 === 0 ? (
                 <div className="hidden flex-col pl-5 sm:flex">

@@ -24,7 +24,7 @@ export default function Hero() {
               href="#"
               className="inline-flex items-center justify-center gap-2 rounded-2xl border border-primaryOrange bg-primaryOrange px-8 py-3 font-semibold leading-6 text-white shadow-lg transition ease-in-out hover:-translate-y-1 delay-10 hover:scale-110 focus-ring focus:ring-orangered-100 focus:ring-opacity-50 active:border-orangered-100 active:bg-orangered-100 active:ring "
             >
-              <span>Start a new Project</span>
+              <span>Start Together</span>
             </a>
           </div>
         </div>

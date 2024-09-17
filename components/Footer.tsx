@@ -1,15 +1,16 @@
-import { Instagram, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Twitter } from "lucide-react";
 import Image from "next/image";
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-[#5A5A63] md:px-5 lg:px-16 xl:px-40 mt-0 justify-center">
+      <div className="bg-[#000000] md:px-5 lg:px-16 xl:px-40 mt-0 justify-center pt-8">
         <div className="ms-0">
           <Image
-            src="/assets/images/Logo.svg"
+            src="/assets/images/footerlogo.svg"
             alt="Logo"
             width={127}
             height={52}
+            className=""
           />
         </div>
         <div className="flex flex-row">
@@ -17,17 +18,18 @@ export default function Footer() {
             #1 BEST YOUNG SOFTWARE BUILDER HOUSE
           </div>
 
-          <div className=" text-sm mt-6 flex-auto">
+          <div className="text-white text-sm mt-6 flex-auto">
             <Twitter />
           </div>
-          <div className=" text-sm mt-6 flex-auto ">
+          <div className="text-white text-sm mt-6 flex-auto ">
             <Instagram />
           </div>
-          <div className=" text-sm mt-6 flex-auto ">
-          <img src={"/Github.svg"} alt="My SVG" />
+          <div className="tex-white text-sm mt-6 flex-auto ">
+          <img src={"/devicon_github.png"} alt="My SVG" />
           </div>
-          <div className=" text-sm mt-6 flex-auto pr-0 ">
-          <img src={"/LinkedIn.svg"} alt="My SVG" />
+          <div className="text-white text-sm mt-6 flex-auto pr-0 ">
+          {/* <img src={"/LinkedIn.svg"} alt="My SVG" /> */}
+          <Linkedin />
           </div>
         </div>
         <hr className="mt-10 bg-[#fff] w" />
