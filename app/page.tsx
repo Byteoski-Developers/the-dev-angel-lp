@@ -7,7 +7,8 @@ import Footer from "@/components/Footer";
 // import Contact from "./contact-us/page";
 import ContactUs from "@/components/ContactUs";
 import HiringPartners from "@/components/HiringPartners";
-import OurCourses from "@/components/OurCourses";
+// import OurCourses from "@/components/OurCourses";
+import Projects from "@/components/Projects";
 import OurTeams from "@/components/OurTeams";
 import OurClientReviews from "@/components/OurClientReviews";
 
@@ -19,7 +20,8 @@ export default function landingPage() {
       <Whydevangel />
       <OurClientReviews />
       <OurTeams />
-      <OurCourses />
+      {/* <OurCourses /> */}
+      <Projects />
       <HiringPartners />
       <ContactUs />
       <Footer />

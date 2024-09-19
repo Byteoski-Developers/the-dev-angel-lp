@@ -86,20 +86,20 @@ export default function OurTeams() {
                     </button>
                   </div>
                   <p className="font-bold mb-8">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Unde, sapiente voluptatum at doloremque dicta minima earum
-                    ex sequi facilis fuga accusantium omnis labore commodi
-                    praesentium aliquid dignissimos assumenda sint in.
+                    Vansh is a creative frontend developer passionate about
+                    designing user-friendly interfaces. With two years of
+                    hands-on experience, he has worked across various projects
+                    involving JavaScript frameworks, UX/UI design, and rapid
+                    prototyping. He thrives on bringing ideas to life through
+                    clean, functional code and stunning visuals.
                   </p>
 
                   <div className="grid lg:grid-cols-4  sm:grid-cols-2 md:grid-cols-3 mt-0 w-[400px]">
-                    <img src="./Twitter.svg" alt="twitter logo"/>
-                    <img src="./Instagram.svg" alt="insta logo"/>
-                    <img src="./Github.svg" alt="Github logo"/>
-                    <img src ="./LinkedIn.svg" alt="Linked Logo"/>
-                    
-                    
-                    
+                    <img src="./Twitter.svg" alt="twitter logo" />
+                    <img src="./Instagram.svg" alt="insta logo" />
+                    <img src="./Github.svg" alt="Github logo" />
+                    <img src="./LinkedIn.svg" alt="Linked Logo" />
+
                     {/* <div className=" text-sm mt-6 flex-auto">
 
                     </div>
@@ -123,7 +123,7 @@ export default function OurTeams() {
           {/* Arrow Div */}
           <div className="bg-[rgba(255,87,34,0.25)] h-full md:w-[40%] sm:w-full flex flex-inline justify-center items-center sm:justify-center sm:items-center ml-32">
             <button className="flex flex-inline justify-center items-center ">
-              <img src="./Redarrow.svg"  alt="redarrow logo" />
+              <img src="./Redarrow.svg" alt="redarrow logo" />
             </button>
           </div>
           {/* Arrow Div End  */}

@@ -9,15 +9,15 @@ export default function Hero() {
             #1 BEST YOUNG SOFTWARE BUILDER HOUSE
           </div>
           <h2 className="flex flex-col items-center mb-5 text-black font-bold font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl ">
-            <span className="flex p-5 line-clamp-1">Let’s Build Together</span>
-
-            <span className="flex p-2 text-primaryOrange ">New SAAS</span>
+            <span className="flex p-5 line-clamp-1">
+              Welcome to The Dev Angel
+            </span>
           </h2>
+          <span className="flex p-2 mb-5 text-primaryOrange text-4xl md:text-5xl font-poppins font-semibold flex justify-center">
+            Empowering Developers, Elevating Code
+          </span>
           <h2 className="mx-auto text-xl font-medium leading-relaxed text-gray-600 lg:w-3/4 xl:w-3/4 ">
-            The DevAngel is started for supporting students / young
-            Professionals to build their products, learn technology in all
-            domains be it web, apps, devOps, product management, indie Hacking
-            etc.
+          At The Dev Angel, we&apos;re passionate about helping developers reach their full potential. Whether you&apos;re just starting your coding journey or you&apos;re a seasoned pro looking to level up, we&apos;ve got your back.
           </h2>
           <div className="py-10">
             <a

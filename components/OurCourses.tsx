@@ -13,7 +13,8 @@ export default function OurCourses() {
               We reply in 24hrs
             </div> */}
             <h2 className="mb-4 text-4xl font-black text-black dark:text-white">
-              &lt;Explore <span className="text-primaryOrange">Our Courses </span> &gt;
+              &lt;Explore{" "}
+              <span className="text-primaryOrange">Our Courses </span> &gt;
             </h2>
             <h3 className="mx-auto text-xl font-medium leading-relaxed text-[#B5B5B5] lg:w-2/3 dark:text-gray-300">
               Your One Stop Destination for Success
@@ -29,13 +30,9 @@ export default function OurCourses() {
               <img src="\assets\images\uiux.png" alt="UI Ux ImageCard" />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">UI/UX</div>
-                <ul className="list-disc list-inside">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                <ul className="list-disc list-inside ">
+                  <li>Understand design principles.</li>
+                  <li>Create intuitive user interfaces.</li>
                 </ul>
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                   in saepe odio tempora perspiciatis mollitia sit quo explicabo?
@@ -67,18 +64,9 @@ export default function OurCourses() {
               <img src="\assets\images\Coding.png" alt="Coding ImageCard" />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Coding</div>
-
-                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                  in saepe odio tempora perspiciatis mollitia sit quo explicabo?
-                  Optio recusandae alias porro cumque enim tenetur nihil? Quia
-                  quis incidunt veritatis! */}
-                <ul className="list-disc list-inside">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                <ul className="list-disc list-inside  ">
+                  <li>Learn to code efficiently.</li>
+                  <li>Hands-on coding exercises.</li>
                 </ul>
 
                 <div className="flex items-center space-x-2 mt-4">
@@ -107,13 +95,9 @@ export default function OurCourses() {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Frontend</div>
 
-                <ul className="list-disc list-inside">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                <ul className="list-disc list-inside ">
+                  <li>Master HTML, CSS, JavaScript.</li>
+                  <li>Build responsive websites.</li>
                 </ul>
 
                 <div className="flex items-center space-x-2 mt-4">
@@ -145,13 +129,9 @@ export default function OurCourses() {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Super Backend</div>
 
-                <ul className="list-disc list-inside">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                <ul className="list-disc list-inside ">
+                  <li>Build robust backend systems.</li>
+                  <li>Explore APIs and databases.</li>
                 </ul>
 
                 <div className="flex items-center space-x-2 mt-4">
@@ -180,13 +160,9 @@ export default function OurCourses() {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">DataBase</div>
 
-                <ul className="list-disc list-inside">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                <ul className="list-disc list-inside ">
+                  <li>Learn SQL and data structures.</li>
+                  <li>Manage complex databases.</li>
                 </ul>
 
                 <div className="flex items-center space-x-2 mt-4">
@@ -218,13 +194,9 @@ export default function OurCourses() {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Product Manager</div>
 
-                <ul className="list-disc list-inside">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                <ul className="list-disc list-inside ">
+                  <li>Develop product strategies.</li>
+                  <li>Manage teams and projects.</li>
                 </ul>
 
                 <div className="flex items-center space-x-2 mt-4">
