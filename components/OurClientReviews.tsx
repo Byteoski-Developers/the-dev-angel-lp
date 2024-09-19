@@ -88,16 +88,17 @@ export default function OurClientReviews() {
                     </div>
                   </div>
                   <div className="w-[266px] leading-7 text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{" "}
+                    Working with the team has been an enriching experience. The
+                    dedication and collaboration are top-notch, and I&apos;ve
+                    grown so much in my role. Highly recommended!{" "}
                   </div>
                   {/* Star rating start */}
                   <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/GreyStar.svg" alt ="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/GreyStar.svg" alt="cvf" />
                   </div>
                   {/* Star rating end  */}
                 </div>
@@ -123,16 +124,17 @@ export default function OurClientReviews() {
                     </div>
                   </div>
                   <div className="w-[266px] leading-7 text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{" "}
+                    The guidance and support offered here have been exceptional.
+                    This has been a great opportunity to improve my backend
+                    skills in a supportive environment.{" "}
                   </div>
                   {/* Star rating start */}
                   <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/GreyStar.svg" alt ="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/GreyStar.svg" alt="cvf" />
                   </div>
                   {/* Star rating end  */}
                 </div>
@@ -159,16 +161,17 @@ export default function OurClientReviews() {
                     </div>
                   </div>
                   <div className="w-[266px] leading-7 text-center text-black text-xs font-medium font-['Poppins'] leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{" "}
+                    The learning experience has been valuable, and the community
+                    fosters a great atmosphere for growth and development in
+                    tech!{" "}
                   </div>
                   {/* Star rating start */}
                   <div className="flex gap-[1px] text-yellow500">
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/YellowStar.svg" className="mx-1" alt ="cvf" />
-                    <img src = "/GreyStar.svg" alt ="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/YellowStar.svg" className="mx-1" alt="cvf" />
+                    <img src="/GreyStar.svg" alt="cvf" />
                   </div>
                   {/* Star rating end  */}
                 </div>

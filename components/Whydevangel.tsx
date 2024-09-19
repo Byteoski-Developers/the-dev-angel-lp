@@ -9,19 +9,19 @@ const Whydevangel = () => {
       h1: "It's",
       h2: "Free",
       description:
-        "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
+        "The DevAngel empowers students and young professionals to bring their ideas to life. Whether it's web development, app creation, DevOps, or product management, you'll access all the tools and resources for free, helping you grow without any financial barriers. Join a thriving community dedicated to supporting your journey.",
     },
     {
       h1: "Best",
       h2: "Team",
       description:
-        "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
+        "At DevAngel, you’ll collaborate with an exceptional team of professionals passionate about technology and innovation. Our experts span across web, apps, DevOps, and product management, providing you with the mentorship and insights you need to succeed in every domain. Learn from the best, and accelerate your growth with the support of our dedicated team.",
     },
     {
       h1: "24/7",
       h2: "Support",
       description:
-        "The DevAngel is started for supporting students / young Professionals to build their products, learn technology in all domains be it web, apps, devOps, product management, indie Hacking etc.",
+        "Whenever you face a challenge, DevAngel is here to help—day or night. Our 24/7 support ensures that you're never alone in your journey. Whether you're coding at midnight or troubleshooting a project in the early hours, our team is always ready to assist you with technical advice, mentorship, and problem-solving guidance.",
     },
   ];
   return (
